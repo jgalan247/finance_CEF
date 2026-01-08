@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic 1 Test: Citizenship | LIBF FIS</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/test-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>LIBF FIS Assessment</h1>
+            <p class="subtitle">Topic 1: The Role of the Citizen</p>
+        </div>
+    </header>
+
+    <nav class="breadcrumb">
+        <div class="container">
+            <a href="../index.html">Home</a>
+            <span>›</span>
+            <a href="../topics/topic-1-citizenship/index.html">Topic 1</a>
+            <span>›</span>
+            <span>Test</span>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="section">
+                <div class="info-box tip">
+                    <strong>Instructions:</strong> Answer all questions by selecting one option for each. When you have finished, click "Submit Test" to see your results. A PDF certificate will be automatically downloaded with your score.
+                </div>
+
+                <div id="topic-1-test"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>LIBF FIS Revision | Assessment Centre</p>
+        </div>
+    </footer>
+
+    <script src="../js/test-engine.js"></script>
+    <script>
+        // Topic 1 Test: Citizenship
+        new FISTest('topic-1-test', {
+            topicNumber: 1,
+            topicName: 'Citizenship',
+            questions: [
+                {
+                    question: 'What is a citizen?',
+                    options: [
+                        'Someone who was born in the UK',
+                        'Someone who has the legal right to live in a particular country',
+                        'Someone who pays taxes',
+                        'Someone who has a British passport'
+                    ],
+                    correct: 1,
+                    explanation: 'A citizen is defined as someone who has the legal right to live in a particular country, regardless of where they were born.'
+                },
+                {
+                    question: 'The process of becoming a UK citizen is called:',
+                    options: [
+                        'Immigration',
+                        'Emigration',
+                        'Naturalisation',
+                        'Registration'
+                    ],
+                    correct: 2,
+                    explanation: 'Naturalisation is the process of becoming a citizen. It includes taking the "Life in the UK" test and attending a citizenship ceremony.'
+                },
+                {
+                    question: 'Which of the following is a RESPONSIBILITY of a UK citizen, not a right?',
+                    options: [
+                        'Free healthcare through the NHS',
+                        'Right to a fair trial',
+                        'Paying taxes',
+                        'Free education'
+                    ],
+                    correct: 2,
+                    explanation: 'Paying taxes is something citizens should do (a responsibility). The others are things citizens are entitled to (rights).'
+                },
+                {
+                    question: 'What is the minimum age to vote in UK general elections?',
+                    options: [
+                        '16',
+                        '17',
+                        '18',
+                        '21'
+                    ],
+                    correct: 2,
+                    explanation: 'You must be 18 years old to vote in UK general elections.'
+                },
+                {
+                    question: 'As a witness in court, your responsibility is to:',
+                    options: [
+                        'Decide if the defendant is guilty or not guilty',
+                        'Tell the truth about what you saw or know',
+                        'Represent the defendant',
+                        'Set an appropriate punishment'
+                    ],
+                    correct: 1,
+                    explanation: 'Witnesses must tell the truth. Jury members (not witnesses) decide if someone is guilty. These are different roles.'
+                },
+                {
+                    question: 'The UK is described as a constitutional monarchy. This means:',
+                    options: [
+                        'The monarch makes all the laws',
+                        'There is no monarch in the UK',
+                        'The monarch is head of state but Parliament makes the laws',
+                        'The Prime Minister is the head of state'
+                    ],
+                    correct: 2,
+                    explanation: 'In a constitutional monarchy, the monarch (King or Queen) is head of state, but elected Parliament makes the laws.'
+                },
+                {
+                    question: 'Which government minister is responsible for managing the country\'s money and taxes?',
+                    options: [
+                        'Home Secretary',
+                        'Foreign Secretary',
+                        'Chancellor of the Exchequer',
+                        'Secretary of State for Education'
+                    ],
+                    correct: 2,
+                    explanation: 'The Chancellor of the Exchequer is in charge of the government\'s finances, including taxation.'
+                },
+                {
+                    question: 'Jury service in the UK is for people aged:',
+                    options: [
+                        '16 to 65',
+                        '18 to 70',
+                        '18 to 75',
+                        '21 to 65'
+                    ],
+                    correct: 2,
+                    explanation: 'UK citizens aged 18 to 75 can be called for jury service.'
+                },
+                {
+                    question: 'How can a person become a UK citizen by descent?',
+                    options: [
+                        'By being born in the UK',
+                        'By marrying a British citizen',
+                        'By being born outside the UK but having a British parent',
+                        'By living in the UK for 5 years'
+                    ],
+                    correct: 2,
+                    explanation: 'Citizenship by descent means being born outside the UK but having at least one parent who is a British citizen.'
+                },
+                {
+                    question: 'Which of the following is a way citizens can participate in politics?',
+                    options: [
+                        'Refusing to pay taxes',
+                        'Signing petitions and contacting their MP',
+                        'Ignoring election campaigns',
+                        'Avoiding jury service'
+                    ],
+                    correct: 1,
+                    explanation: 'Citizens can participate by voting, signing petitions, contacting MPs, campaigning, and joining political parties.'
+                }
+            ],
+            caseStudies: [
+                {
+                    title: 'The Baker Family',
+                    scenario: `
+                        <p><strong>Philippe Baker</strong> came to the UK from Africa in the 1960s when there was a shortage of workers. He worked in a shipyard in Liverpool. When he arrived, he changed his family name to 'Baker' so it would be easier for English people to pronounce.</p>
+                        <p>Philippe's mother was British, which helped him become a UK citizen. He went through a process that included taking a test about life in the UK and attending a special ceremony.</p>
+                        <p>His grandson, <strong>Jacob</strong>, is now 19 years old and was born in Southampton to British parents. Jacob recently voted for the first time in a general election.</p>
+                    `,
+                    questions: [
+                        {
+                            question: 'Based on the scenario, how did Philippe become a UK citizen?',
+                            options: [
+                                'By birth in the UK',
+                                'By marriage to a British citizen',
+                                'By naturalisation',
+                                'By winning a lottery'
+                            ],
+                            correct: 2,
+                            explanation: 'Philippe went through naturalisation - the process that includes the "Life in the UK" test and a citizenship ceremony.'
+                        },
+                        {
+                            question: 'How did Jacob become a UK citizen?',
+                            options: [
+                                'By naturalisation',
+                                'By birth (born in UK with British parents)',
+                                'By registration',
+                                'By descent'
+                            ],
+                            correct: 1,
+                            explanation: 'Jacob was born in the UK to British parents, making him a citizen by birth.'
+                        },
+                        {
+                            question: 'At what age was Jacob first able to vote?',
+                            options: [
+                                '16',
+                                '17',
+                                '18',
+                                '19'
+                            ],
+                            correct: 2,
+                            explanation: 'The voting age in the UK is 18. Jacob could have voted from age 18 onwards.'
+                        }
+                    ]
+                },
+                {
+                    title: 'Sue\'s Campaign',
+                    scenario: `
+                        <p><strong>Sue Baker</strong> is a medical secretary who lives in Southampton. When her local council announced plans to close the community library, Sue decided to take action.</p>
+                        <p>She organised a petition and collected over 3,000 signatures from local residents. She handed the petition to the Head of the Council and gave interviews to local newspapers. She also wrote to her local councillor asking them to argue for keeping the library open.</p>
+                        <p>After several months of campaigning, the council decided to keep the library open. Sue was pleased that her efforts had made a difference.</p>
+                    `,
+                    questions: [
+                        {
+                            question: 'Which of the following best describes Sue\'s actions?',
+                            options: [
+                                'Breaking the law',
+                                'Active citizenship and political participation',
+                                'Government work',
+                                'Professional journalism'
+                            ],
+                            correct: 1,
+                            explanation: 'Sue demonstrated active citizenship by participating in the political process through petitions, media engagement, and contacting elected representatives.'
+                        },
+                        {
+                            question: 'How many signatures does a petition need in the UK to potentially trigger a parliamentary debate?',
+                            options: [
+                                '1,000',
+                                '10,000',
+                                '100,000',
+                                '1,000,000'
+                            ],
+                            correct: 2,
+                            explanation: 'Petitions with 100,000 or more signatures can be considered for debate in Parliament.'
+                        },
+                        {
+                            question: 'Sue\'s campaign is an example of citizens exercising their:',
+                            options: [
+                                'Right to free healthcare',
+                                'Responsibility to pay taxes',
+                                'Right to participate in democracy',
+                                'Responsibility to serve on a jury'
+                            ],
+                            correct: 2,
+                            explanation: 'Sue exercised her right to participate in the democratic process by campaigning on an issue she cared about.'
+                        }
+                    ]
+                }
+            ]
+        });
+    </script>
+</body>
+</html>
