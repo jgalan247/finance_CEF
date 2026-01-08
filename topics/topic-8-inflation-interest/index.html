@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic 8: Inflation & Interest | LIBF FIS Revision</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Topic 8: Inflation & Interest Rates</h1>
+            <p class="subtitle">LO4: Understand how inflation and interest rates impact personal finance</p>
+        </div>
+    </header>
+
+    <nav class="breadcrumb">
+        <div class="container">
+            <a href="../../index.html">Home</a> <span>›</span> <span>Topic 8</span>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            
+            <!-- Learning Objectives -->
+            <div class="section">
+                <h2>What You Need to Learn</h2>
+                <ul style="margin-left: 20px; line-height: 2;">
+                    <li>Define inflation and understand how it's measured (CPI)</li>
+                    <li>Understand nominal vs real interest rates</li>
+                    <li>Know the difference between simple and compound interest</li>
+                    <li>Understand fixed vs variable interest rates</li>
+                    <li>Know how inflation and interest rates affect savers and borrowers</li>
+                </ul>
+            </div>
+
+            <!-- Inflation Introduction with Richard -->
+            <div class="section">
+                <h2>📈 What is Inflation?</h2>
+                
+                <div class="baker-card">
+                    <h4><div class="avatar" style="background: #28a745;">R</div> Richard's Problem: Rising Prices</h4>
+                    <div class="baker-quote">
+                        "I want to buy a second-hand estate car to transport my pottery more easily. When I started saving, the car cost £6,875. But now it's £7,387 - an increase of 7.45% in less than a year! My savings only earned 3% interest. The price is rising faster than I can save."
+                    </div>
+                </div>
+
+                <p><strong>Inflation</strong> is the rate at which prices increase over time. It's measured as a percentage per year.</p>
+
+                <div class="scenario-box">
+                    <h4>📊 Richard's Savings vs Car Price</h4>
+                    <div class="numbers-box">
+                        <table>
+                            <tr><td>Car price (start of year)</td><td class="amount">£6,875</td></tr>
+                            <tr><td>Inflation on car (7.45%)</td><td class="amount">+ £512</td></tr>
+                            <tr><td>Car price (end of year)</td><td class="amount">£7,387</td></tr>
+                            <tr><td colspan="2" style="padding-top: 10px;"><strong>Richard's Savings</strong></td></tr>
+                            <tr><td>Savings (start of year)</td><td class="amount">£5,000</td></tr>
+                            <tr><td>Interest earned (3%)</td><td class="amount">+ £150</td></tr>
+                            <tr><td>Savings (end of year)</td><td class="amount">£5,150</td></tr>
+                        </table>
+                    </div>
+                    <p><strong>Result:</strong> The car price rose £512, but Richard only earned £150 interest. He's falling further behind!</p>
+                </div>
+
+                <div class="info-box danger">
+                    <strong>🎯 EXAM ALERT:</strong> When inflation is HIGHER than your savings interest rate, your money loses purchasing power - you can buy LESS with it over time.
+                </div>
+            </div>
+
+            <!-- UK Inflation Target -->
+            <div class="section">
+                <h2>🎯 The UK's Inflation Target</h2>
+                
+                <div class="info-box tip">
+                    <strong>💡 Key Fact:</strong> The Bank of England has a target to keep inflation at <strong>2%</strong>. The Monetary Policy Committee (MPC) adjusts interest rates to try to achieve this target.
+                </div>
+
+                <div class="baker-card">
+                    <h4><div class="avatar" style="background: #dc3545;">M</div> Marion's Pay Rise Problem</h4>
+                    <div class="baker-quote">
+                        "I've just received an annual pay increase of 1.75% from the hotel. I'm disappointed because inflation is 2%. In real terms, the purchasing power of my salary has actually DROPPED by 0.25% since last year!"
+                    </div>
+                </div>
+
+                <div class="scenario-box">
+                    <h4>📊 Marion's Real Pay Change</h4>
+                    <div class="numbers-box">
+                        <table>
+                            <tr><td>Pay rise</td><td class="amount">1.75%</td></tr>
+                            <tr><td>Inflation rate</td><td class="amount">2.00%</td></tr>
+                            <tr class="total"><td>Real change in purchasing power</td><td class="amount" style="color: #dc3545;">-0.25%</td></tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Activity: Inflation Check -->
+            <div class="section">
+                <div class="activity">
+                    <div class="activity-header">
+                        <div class="activity-icon">1</div>
+                        <h3>Quick Check: Inflation Target</h3>
+                    </div>
+                    <div id="inflation-target-check"></div>
+                </div>
+            </div>
+
+            <!-- Nominal vs Real Interest -->
+            <div class="section">
+                <h2>💰 Nominal vs Real Interest Rates</h2>
+
+                <div class="info-box danger">
+                    <strong>🎯 EXAM ALERT:</strong> Only 50% of students understood this! The formula is:<br>
+                    <strong style="font-size: 1.2rem;">Real Interest Rate = Nominal Rate - Inflation Rate</strong>
+                </div>
+
+                <div class="baker-card">
+                    <h4>George's Savings Disaster</h4>
+                    <div class="baker-quote">
+                        "I put £10,000 in the bank at 5% interest. I was happy to receive £500 interest at the end of the year. But inflation was 10%! I now need £11,000 to buy the same things my £10,000 would have bought a year ago. With only £10,500, I'm actually £500 WORSE OFF."
+                    </div>
+                </div>
+
+                <div class="scenario-box">
+                    <h4>📊 George's Real Interest Rate</h4>
+                    <div class="numbers-box">
+                        <table>
+                            <tr><td>Nominal interest rate (stated)</td><td class="amount">5%</td></tr>
+                            <tr><td>Inflation rate</td><td class="amount">10%</td></tr>
+                            <tr class="total"><td>Real interest rate</td><td class="amount" style="color: #dc3545;">-5%</td></tr>
+                        </table>
+                    </div>
+                    <p>George's money grew by 5%, but prices grew by 10%. In real terms, he lost 5% of his purchasing power.</p>
+                </div>
+
+                <table class="knowledge-table">
+                    <thead>
+                        <tr>
+                            <th>Term</th>
+                            <th>Definition</th>
+                            <th>Example</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Nominal Rate</strong></td>
+                            <td>The interest rate as stated/advertised</td>
+                            <td>Bank says "5% AER"</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Real Rate</strong></td>
+                            <td>The rate after accounting for inflation</td>
+                            <td>5% - 10% inflation = -5% real</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Activity: Real Interest Calculation -->
+            <div class="section">
+                <div class="activity">
+                    <div class="activity-header">
+                        <div class="activity-icon">2</div>
+                        <h3>Activity: Calculate Real Interest Rates</h3>
+                    </div>
+                    <div id="real-rate-q1"></div>
+                    <div id="real-rate-q2"></div>
+                </div>
+            </div>
+
+            <!-- Gross vs Net Interest -->
+            <div class="section">
+                <h2>💷 Gross vs Net Interest</h2>
+
+                <div class="baker-card">
+                    <h4><div class="avatar" style="background: #e83e8c;">So</div> Sophie's Savings Account</h4>
+                    <div class="baker-quote">
+                        "I have a Regular Saver account that pays 2.50% gross interest. But 'gross' means before tax. If I had to pay tax, I'd receive less - that would be my 'net' interest. Luckily, I have a Personal Savings Allowance so I don't pay tax on my small amount of interest."
+                    </div>
+                </div>
+
+                <table class="knowledge-table">
+                    <thead>
+                        <tr>
+                            <th>Term</th>
+                            <th>Meaning</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Gross Interest</strong></td>
+                            <td>Interest BEFORE tax is deducted</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Net Interest</strong></td>
+                            <td>Interest AFTER tax is deducted (what you actually receive)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>AER</strong></td>
+                            <td>Annual Equivalent Rate - standardised rate for comparing savings accounts</td>
+                        </tr>
+                        <tr>
+                            <td><strong>APR</strong></td>
+                            <td>Annual Percentage Rate - standardised rate for comparing loans/borrowing</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Simple vs Compound Interest -->
+            <div class="section">
+                <h2>📊 Simple vs Compound Interest</h2>
+
+                <div class="baker-card">
+                    <h4><div class="avatar" style="background: #fd7e14;">B</div> Ben Learns About Interest</h4>
+                    <div class="baker-quote">
+                        "Dad explained that there are two types of interest. Simple interest is calculated only on my original savings. But compound interest is calculated on my savings PLUS the interest I've already earned - so my money grows faster!"
+                    </div>
+                </div>
+
+                <div class="scenario-box">
+                    <h4>📊 £1,000 at 10% Interest Over 3 Years</h4>
+                    <div class="numbers-box">
+                        <table>
+                            <tr><td colspan="3"><strong>Simple Interest</strong> (interest only on original £1,000)</td></tr>
+                            <tr><td>Year 1:</td><td>£1,000 + £100 =</td><td class="amount">£1,100</td></tr>
+                            <tr><td>Year 2:</td><td>£1,100 + £100 =</td><td class="amount">£1,200</td></tr>
+                            <tr><td>Year 3:</td><td>£1,200 + £100 =</td><td class="amount">£1,300</td></tr>
+                            <tr><td colspan="3" style="padding-top: 15px;"><strong>Compound Interest</strong> (interest on total balance)</td></tr>
+                            <tr><td>Year 1:</td><td>£1,000 + £100 =</td><td class="amount">£1,100</td></tr>
+                            <tr><td>Year 2:</td><td>£1,100 + £110 =</td><td class="amount">£1,210</td></tr>
+                            <tr><td>Year 3:</td><td>£1,210 + £121 =</td><td class="amount">£1,331</td></tr>
+                        </table>
+                    </div>
+                    <p><strong>Compound gives £31 more!</strong> The difference grows larger over longer periods.</p>
+                </div>
+
+                <div class="info-box warning">
+                    <strong>⚠️ Warning:</strong> Compound interest works FOR you with savings, but AGAINST you with debts! Credit card debt compounds, making it grow rapidly.
+                </div>
+            </div>
+
+            <!-- Card Sort: Interest Types -->
+            <div class="section">
+                <div class="activity">
+                    <div class="activity-header">
+                        <div class="activity-icon">3</div>
+                        <h3>Card Sort: Simple vs Compound Interest</h3>
+                    </div>
+                    <div id="interest-type-sort"></div>
+                </div>
+            </div>
+
+            <!-- Fixed vs Variable Rates -->
+            <div class="section">
+                <h2>🔒 Fixed vs Variable Interest Rates</h2>
+
+                <div class="info-box danger">
+                    <strong>🎯 EXAM ALERT:</strong> Many students confuse this! Fixed-rate loans are NOT affected by Bank of England rate changes. Only VARIABLE rates change.
+                </div>
+
+                <div class="baker-card">
+                    <h4><div class="avatar" style="background: #4a6fa5;">D</div> Daniel's Fixed Rate Mortgage</h4>
+                    <div class="baker-quote">
+                        "I have a mortgage with a rate fixed for 2 years at 3.9%. Even if the Bank of England raises interest rates, my payments stay the same. I like knowing exactly what I'll pay each month - it helps me budget."
+                    </div>
+                </div>
+
+                <div class="baker-card">
+                    <h4><div class="avatar" style="background: #dc3545;">M</div> Marion's Variable Rate Mortgage</h4>
+                    <div class="baker-quote">
+                        "I want a variable mortgage because payments are low when Bank rate is low. If the Bank of England raises rates, my salary will probably rise too because the economy is growing. When rates fall again, my payments will drop automatically."
+                    </div>
+                </div>
+
+                <table class="knowledge-table">
+                    <thead>
+                        <tr>
+                            <th>Fixed Rate</th>
+                            <th>Variable Rate</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Stays the same for a set period</td>
+                            <td>Changes when Bank of England rate changes</td>
+                        </tr>
+                        <tr>
+                            <td>✓ Easy to budget</td>
+                            <td>✓ Can benefit from rate cuts</td>
+                        </tr>
+                        <tr>
+                            <td>✗ Miss out if rates fall</td>
+                            <td>✗ Payments rise if rates increase</td>
+                        </tr>
+                        <tr>
+                            <td>Daniel prefers this for certainty</td>
+                            <td>Marion prefers this for flexibility</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Scenario: Interest Rate Rise -->
+            <div class="section">
+                <h2>🎯 Scenario: What Happens When Interest Rates Rise?</h2>
+
+                <div class="scenario-box">
+                    <h4>📋 The Bank of England raises interest rates by 0.5%</h4>
+                    <p>How does this affect different members of the Baker family?</p>
+                </div>
+
+                <table class="knowledge-table">
+                    <thead>
+                        <tr>
+                            <th>Family Member</th>
+                            <th>Their Situation</th>
+                            <th>Effect of Rate Rise</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="background: #f8d7da;">
+                            <td><strong>Marion</strong></td>
+                            <td>Variable rate mortgage</td>
+                            <td>❌ Payments INCREASE</td>
+                        </tr>
+                        <tr style="background: #d4edda;">
+                            <td><strong>Daniel</strong></td>
+                            <td>Fixed rate mortgage</td>
+                            <td>✓ No change (fixed)</td>
+                        </tr>
+                        <tr style="background: #d4edda;">
+                            <td><strong>Philippe & Lisa</strong></td>
+                            <td>Savings accounts</td>
+                            <td>✓ Earn MORE interest</td>
+                        </tr>
+                        <tr style="background: #f8d7da;">
+                            <td><strong>Sue</strong></td>
+                            <td>Credit card debt</td>
+                            <td>❌ Interest charges INCREASE</td>
+                        </tr>
+                        <tr style="background: #d4edda;">
+                            <td><strong>Richard</strong></td>
+                            <td>No debts, has savings</td>
+                            <td>✓ Better for him</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div id="rate-rise-quiz"></div>
+            </div>
+
+            <!-- Philippe's Winter Fuel Scenario -->
+            <div class="section">
+                <h2>🎯 Scenario: Inflation Affects Benefits</h2>
+
+                <div class="baker-card">
+                    <h4><div class="avatar" style="background: #6c757d;">P</div><div class="avatar" style="background: #6c757d; margin-left: -30px;">L</div> Philippe & Lisa's Winter Fuel Payment</h4>
+                    <div class="baker-quote">
+                        "We get a Winter Fuel Payment of £200 to help with heating bills. Last year our winter energy bill was £400, so we paid £200 ourselves. But energy prices rose 10% while our payment stayed the same!"
+                    </div>
+                </div>
+
+                <div class="scenario-box">
+                    <h4>📊 The Impact of Inflation on Benefits</h4>
+                    <div class="numbers-box">
+                        <table>
+                            <tr><td colspan="2"><strong>Last Year</strong></td></tr>
+                            <tr><td>Winter energy bill</td><td class="amount">£400</td></tr>
+                            <tr><td>Winter Fuel Payment</td><td class="amount">-£200</td></tr>
+                            <tr><td>They paid</td><td class="amount">£200</td></tr>
+                            <tr><td colspan="2" style="padding-top: 10px;"><strong>This Year (10% inflation)</strong></td></tr>
+                            <tr><td>Winter energy bill</td><td class="amount">£440</td></tr>
+                            <tr><td>Winter Fuel Payment (unchanged)</td><td class="amount">-£200</td></tr>
+                            <tr class="total"><td>They must pay</td><td class="amount">£240</td></tr>
+                        </table>
+                    </div>
+                    <p><strong>Result:</strong> Philippe and Lisa are £40 worse off because benefits didn't keep pace with inflation.</p>
+                </div>
+            </div>
+
+            <!-- True/False Activity -->
+            <div class="section">
+                <div class="activity">
+                    <div class="activity-header">
+                        <div class="activity-icon">4</div>
+                        <h3>True or False</h3>
+                    </div>
+                    <div id="inflation-true-false"></div>
+                </div>
+            </div>
+
+            <!-- Marion's Flat - Impact of Rates -->
+            <div class="section">
+                <h2>🏠 Marion's Flat: Interest & Inflation Combined</h2>
+
+                <div class="baker-card">
+                    <h4><div class="avatar" style="background: #dc3545;">M</div> Marion's Situation</h4>
+                    <div class="baker-quote">
+                        "I bought my flat for £100,000. Low interest rates benefit me because I pay less on my mortgage. But high inflation actually helps too - because my flat's value increases! Last year with 10% inflation, my flat is now worth £110,000."
+                    </div>
+                </div>
+
+                <div class="consequence-box">
+                    <div class="consequence-good">
+                        <strong>✓ Benefits Marion</strong>
+                        <ul>
+                            <li>Low interest = lower mortgage payments</li>
+                            <li>High inflation = flat value increases</li>
+                            <li>She owns an asset that grows with inflation</li>
+                        </ul>
+                    </div>
+                    <div class="consequence-bad">
+                        <strong>✗ Risks for Marion</strong>
+                        <ul>
+                            <li>High interest rates = higher payments</li>
+                            <li>Could struggle to afford mortgage</li>
+                            <li>Might lose flat if can't pay (repossession)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="info-box tip">
+                    <strong>💡 Key Insight:</strong> Inflation can HELP people who own assets (houses, shares) because the asset value rises. But it HURTS people trying to save up to buy assets.
+                </div>
+            </div>
+
+            <!-- Fill in the Blanks -->
+            <div class="section">
+                <div class="activity">
+                    <div class="activity-header">
+                        <div class="activity-icon">5</div>
+                        <h3>Fill in the Blanks</h3>
+                    </div>
+                    <div id="inflation-fill-blanks"></div>
+                </div>
+            </div>
+
+            <!-- Baker Interest Rates Table -->
+            <div class="section">
+                <h2>📊 The Baker Family's Interest Rates</h2>
+
+                <table class="knowledge-table">
+                    <thead>
+                        <tr>
+                            <th>Family Member</th>
+                            <th>Product</th>
+                            <th>Interest Rate</th>
+                            <th>Type</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td colspan="4" style="background: #d4edda;"><strong>SAVINGS (AER)</strong></td></tr>
+                        <tr><td>Daniel</td><td>ISA</td><td>1.50% tax-free</td><td>Variable</td></tr>
+                        <tr><td>Sophie</td><td>Regular Saver</td><td>2.50% gross</td><td>Fixed</td></tr>
+                        <tr><td>Ben</td><td>Young Person's Saver</td><td>0.75% gross</td><td>Variable</td></tr>
+                        <tr><td colspan="4" style="background: #f8d7da;"><strong>BORROWING (APR)</strong></td></tr>
+                        <tr><td>Daniel</td><td>Mortgage</td><td>3.90%</td><td>Fixed (2 years)</td></tr>
+                        <tr><td>Sue</td><td>Credit card</td><td>18.90%</td><td>Variable</td></tr>
+                        <tr><td>Richard</td><td>Personal loan</td><td>6.20%</td><td>Fixed</td></tr>
+                        <tr><td>Marion</td><td>Overdraft</td><td>15.50% EAR</td><td>Variable</td></tr>
+                    </tbody>
+                </table>
+
+                <div class="info-box warning">
+                    <strong>⚠️ Notice:</strong> Savings rates (1-2%) are much LOWER than borrowing rates (4-19%). This is how banks make profit - they pay you little for savings but charge a lot for loans!
+                </div>
+            </div>
+
+            <!-- Flip Cards -->
+            <div class="section">
+                <div class="activity">
+                    <div class="activity-header">
+                        <div class="activity-icon">6</div>
+                        <h3>Flip Cards: Key Terms</h3>
+                    </div>
+                    <div id="inflation-flip-cards"></div>
+                </div>
+            </div>
+
+            <!-- Practice Quiz -->
+            <div class="section">
+                <h2>📝 Practice Quiz</h2>
+                <div id="practice-quiz"></div>
+            </div>
+
+            <!-- Summary -->
+            <div class="section">
+                <h2>📚 Summary: What the Bakers Taught Us</h2>
+                <table class="knowledge-table">
+                    <thead>
+                        <tr><th>Topic</th><th>Key Learning</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>Richard's Car</strong></td><td>When inflation > savings interest, your money loses purchasing power</td></tr>
+                        <tr><td><strong>Marion's Pay Rise</strong></td><td>A pay rise below inflation means you're worse off in real terms</td></tr>
+                        <tr><td><strong>Real Interest</strong></td><td>Real rate = Nominal rate - Inflation</td></tr>
+                        <tr><td><strong>Daniel vs Marion</strong></td><td>Fixed rates = certainty; Variable rates = flexibility but risk</td></tr>
+                        <tr><td><strong>Philippe's Fuel</strong></td><td>Benefits that don't rise with inflation leave people worse off</td></tr>
+                        <tr><td><strong>UK Target</strong></td><td>Bank of England targets 2% inflation</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Navigation -->
+            <div class="section" style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+                <a href="../topic-7-financial-choices/index.html" class="btn btn-outline">← Topic 7</a>
+                <a href="../../index.html" class="btn btn-primary">Back to Topics</a>
+                <a href="../topic-9-economic-cycles/index.html" class="btn btn-outline">Topic 9 →</a>
+            </div>
+        </div>
+    </main>
+
+    <footer><div class="container"><p>LIBF FIS Revision | Baker Family Case Studies</p></div></footer>
+
+    <script src="../../js/quiz.js"></script>
+    <script src="../../js/card-sort.js"></script>
+    <script src="../../js/activities.js"></script>
+    
+    <script>
+        // Inflation target check
+        new QuickCheck('inflation-target-check', 
+            'The Bank of England\'s inflation target is:',
+            ['0%', '2%', '5%', '10%'],
+            1,
+            'The Bank of England targets 2% inflation. The Monetary Policy Committee (MPC) adjusts interest rates to try to achieve this.'
+        );
+
+        // Real rate calculations
+        new QuickCheck('real-rate-q1',
+            'A savings account pays 4% interest. Inflation is 6%. What is the REAL interest rate?',
+            ['+10%', '+4%', '-2%', '-6%'],
+            2,
+            'Real rate = Nominal - Inflation = 4% - 6% = -2%. Your money is losing purchasing power!'
+        );
+
+        new QuickCheck('real-rate-q2',
+            'Marion gets a 3% pay rise but inflation is 2%. What is her REAL pay increase?',
+            ['+5%', '+3%', '+1%', '-1%'],
+            2,
+            'Real increase = Pay rise - Inflation = 3% - 2% = +1%. She is slightly better off.'
+        );
+
+        // Interest type card sort
+        new CardSort('interest-type-sort', [
+            { id: 'original-only', text: 'Calculated on original amount only' },
+            { id: 'grows-faster', text: 'Money grows faster over time' },
+            { id: 'same-amount', text: 'Same amount of interest each year' },
+            { id: 'interest-on-interest', text: 'Interest earned on interest' },
+            { id: 'credit-cards', text: 'Used by credit cards (bad for borrowers!)' },
+            { id: 'easier-calculate', text: 'Easier to calculate' }
+        ], [
+            { id: 'simple', title: 'Simple Interest', correctTerms: ['original-only', 'same-amount', 'easier-calculate'] },
+            { id: 'compound', title: 'Compound Interest', correctTerms: ['grows-faster', 'interest-on-interest', 'credit-cards'] }
+        ]);
+
+        // Rate rise quiz
+        new QuickCheck('rate-rise-quiz',
+            'If the Bank of England raises interest rates, who is WORST affected?',
+            ['Philippe (saver)', 'Daniel (fixed mortgage)', 'Marion (variable mortgage)', 'Richard (no debts)'],
+            2,
+            'Marion has a variable rate mortgage - her payments will INCREASE when rates rise. Daniel\'s fixed rate protects him. Savers like Philippe actually benefit from higher rates.'
+        );
+
+        // True/False
+        new TrueFalse('inflation-true-false', [
+            { statement: 'The Bank of England\'s inflation target is 2%.', isTrue: true, explanation: 'Correct! The MPC adjusts interest rates to keep inflation close to 2%.' },
+            { statement: 'If inflation is higher than your savings interest rate, your money gains purchasing power.', isTrue: false, explanation: 'False! If inflation is HIGHER, your money LOSES purchasing power - you can buy less.' },
+            { statement: 'A fixed-rate mortgage is affected when the Bank of England changes interest rates.', isTrue: false, explanation: 'False! Fixed rates stay the same regardless of Bank rate changes. Only VARIABLE rates are affected.' },
+            { statement: 'Compound interest means interest is calculated on the original amount plus previous interest.', isTrue: true, explanation: 'Correct! This is why compound interest makes savings grow faster - but also makes debts grow faster!' },
+            { statement: 'Real interest rate = Nominal rate - Inflation rate.', isTrue: true, explanation: 'Correct! This formula shows your actual return after accounting for rising prices.' },
+            { statement: 'Rising interest rates are always bad for everyone.', isTrue: false, explanation: 'False! Savers benefit from higher rates. Only borrowers with variable rates are hurt.' }
+        ]);
+
+        // Fill blanks
+        new FillBlanks('inflation-fill-blanks',
+            'The Bank of England targets inflation at {0}%. When inflation is higher than savings interest, money loses {1} power. The formula for real interest is: Nominal rate minus {2} rate. A {3} rate mortgage stays the same when Bank rates change, but a {4} rate mortgage changes. Compound interest is calculated on the original amount plus {5} earned.',
+            ['2', 'purchasing', 'inflation', 'fixed', 'variable', 'interest']
+        );
+
+        // Flip cards
+        new FlipCards('inflation-flip-cards', [
+            { front: 'Inflation', back: 'The rate at which prices increase over time, measured as a % per year' },
+            { front: 'CPI', back: 'Consumer Prices Index - measures inflation using a "basket" of typical goods' },
+            { front: 'Nominal Interest Rate', back: 'The stated interest rate before accounting for inflation' },
+            { front: 'Real Interest Rate', back: 'Nominal rate minus inflation - shows actual purchasing power change' },
+            { front: 'Simple Interest', back: 'Interest calculated only on the original amount' },
+            { front: 'Compound Interest', back: 'Interest calculated on original amount PLUS previously earned interest' },
+            { front: 'Fixed Rate', back: 'Interest rate that stays the same for a set period' },
+            { front: 'Variable Rate', back: 'Interest rate that changes when Bank of England rate changes' },
+            { front: 'AER', back: 'Annual Equivalent Rate - standard measure for comparing savings accounts' },
+            { front: 'APR', back: 'Annual Percentage Rate - standard measure for comparing loans' }
+        ]);
+
+        // Practice quiz
+        new Quiz('practice-quiz', [
+            { question: 'The Bank of England\'s inflation target is:', options: ['0%', '2%', '5%', '10%'], correct: 1, explanation: 'The target is 2% - low and stable inflation.' },
+            { question: 'If nominal interest is 3% and inflation is 5%, the real interest rate is:', options: ['+8%', '+3%', '-2%', '+2%'], correct: 2, explanation: '3% - 5% = -2%. You\'re losing purchasing power.' },
+            { question: 'Which type of interest makes savings grow fastest over time?', options: ['Simple interest', 'Compound interest', 'Variable interest', 'Fixed interest'], correct: 1, explanation: 'Compound interest - you earn interest on your interest!' },
+            { question: 'Daniel has a fixed-rate mortgage. If Bank rate rises, his payments will:', options: ['Increase', 'Decrease', 'Stay the same', 'Double'], correct: 2, explanation: 'Fixed rates don\'t change when Bank rate changes.' },
+            { question: 'Who benefits most from rising interest rates?', options: ['People with credit card debt', 'People with variable mortgages', 'People with savings', 'People wanting to borrow'], correct: 2, explanation: 'Savers earn more interest when rates rise.' },
+            { question: 'Marion got a 1.75% pay rise but inflation is 2%. In real terms she is:', options: ['Better off', 'Worse off', 'The same', 'Much richer'], correct: 1, explanation: '1.75% - 2% = -0.25%. Her purchasing power fell.' },
+            { question: 'Which is typically higher - savings interest rates or borrowing rates?', options: ['Savings rates', 'Borrowing rates', 'They\'re the same', 'It varies by day'], correct: 1, explanation: 'Banks charge more for loans than they pay on savings - that\'s how they make profit.' },
+            { question: 'Compound interest on debt is:', options: ['Good for borrowers', 'Bad for borrowers', 'Not used on debt', 'Fixed by law'], correct: 1, explanation: 'Compound interest makes debts grow - you pay interest on interest!' }
+        ]);
+    </script>
+</body>
+</html>
