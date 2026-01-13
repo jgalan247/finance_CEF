@@ -7,9 +7,445 @@
     <link rel="stylesheet" href="../../css/styles.css">
 </head>
 <body>
-    <header><div class="container"><h1>Topic 11: Personal Life Cycle</h1><p class="subtitle">LO7: Understand the concept of the personal life cycle</p></div></header>
-    <nav class="breadcrumb"><div class="container"><a href="../../index.html">Home</a><span> › </span><span>Topic 11</span></div></nav>
-    <main><div class="container"><div class="section"><h2>🚧 Coming Soon</h2><p>Interactive activities for life stages, financial needs, wants vs needs, and insurance.</p><a href="../../index.html" class="btn btn-primary" style="margin-top:20px;">← Back to All Topics</a></div></div></main>
-    <footer><div class="container"><p>LIBF FIS Revision Resources</p></div></footer>
+    <header>
+        <div class="container">
+            <h1>Topic 11: Personal Life Cycle</h1>
+            <p class="subtitle">LO7: Understand the concept of the personal life cycle</p>
+        </div>
+    </header>
+
+    <nav class="breadcrumb">
+        <div class="container">
+            <a href="../../index.html">Home</a> <span>›</span> <span>Topic 11</span>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+
+            <!-- Learning Objectives -->
+            <div class="section">
+                <h2>What You Need to Learn</h2>
+                <ul style="margin-left: 20px; line-height: 2;">
+                    <li>Understand the stages of the personal life cycle</li>
+                    <li>Know the difference between needs and wants</li>
+                    <li>Understand how financial needs change through life</li>
+                    <li>Know the purpose of different types of insurance</li>
+                </ul>
+            </div>
+
+            <!-- Baker Family Life Stages -->
+            <div class="section">
+                <h2>👨‍👩‍👧‍👦 The Baker Family: Different Life Stages</h2>
+
+                <p>The Baker family shows how financial needs change at different life stages:</p>
+
+                <table class="knowledge-table">
+                    <thead>
+                        <tr>
+                            <th>Life Stage</th>
+                            <th>Baker Family Member</th>
+                            <th>Main Financial Priorities</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Childhood</strong></td>
+                            <td>Ben (14)</td>
+                            <td>Learning about money, saving pocket money</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Young Adulthood</strong></td>
+                            <td>Sophie (17), Jacob (19)</td>
+                            <td>Education, first job, building independence</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Career Building</strong></td>
+                            <td>Marion (40s)</td>
+                            <td>Building career, saving, renting</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Family with Children</strong></td>
+                            <td>Daniel & Sue (40s)</td>
+                            <td>Mortgage, childcare, education costs, life insurance</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Pre-Retirement</strong></td>
+                            <td>Richard (40s)</td>
+                            <td>Pension planning, paying off debts</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Retirement</strong></td>
+                            <td>Philippe & Lisa (70s)</td>
+                            <td>Living on pension, healthcare, care costs</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Needs vs Wants -->
+            <div class="section">
+                <h2>⚖️ Needs vs Wants</h2>
+
+                <div class="baker-card">
+                    <h4><div class="avatar" style="background: #fd7e14;">B</div> Ben Learns the Difference</h4>
+                    <div class="baker-quote">
+                        "Mum and Dad explained that NEEDS are things I must have to survive - like food, clothes for school, and a warm home. WANTS are things I'd like but can live without - like a new phone or video games. I have to save for my wants myself!"
+                    </div>
+                </div>
+
+                <table class="knowledge-table">
+                    <thead>
+                        <tr>
+                            <th style="background: #dc3545;">Needs (Essential)</th>
+                            <th style="background: #4a6fa5;">Wants (Nice to Have)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Food and water</td>
+                            <td>Eating out at restaurants</td>
+                        </tr>
+                        <tr>
+                            <td>Basic clothing</td>
+                            <td>Designer brands</td>
+                        </tr>
+                        <tr>
+                            <td>Housing (rent/mortgage)</td>
+                            <td>Bigger house than you need</td>
+                        </tr>
+                        <tr>
+                            <td>Heating and utilities</td>
+                            <td>Latest smartphone</td>
+                        </tr>
+                        <tr>
+                            <td>Transport to work</td>
+                            <td>Luxury car</td>
+                        </tr>
+                        <tr>
+                            <td>Healthcare</td>
+                            <td>Holiday abroad</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="info-box tip">
+                    <strong>💡 Remember:</strong> Pay for NEEDS first, then save, then spend on WANTS with what's left.
+                </div>
+            </div>
+
+            <!-- Card Sort: Needs vs Wants -->
+            <div class="section">
+                <div class="activity">
+                    <div class="activity-header">
+                        <div class="activity-icon">1</div>
+                        <h3>Card Sort: Needs vs Wants</h3>
+                    </div>
+                    <div id="needs-sort"></div>
+                </div>
+            </div>
+
+            <!-- Changing Financial Needs -->
+            <div class="section">
+                <h2>📈 How Financial Needs Change Through Life</h2>
+
+                <div class="baker-card">
+                    <h4><div class="avatar" style="background: #4a6fa5;">D</div> Daniel Reflects</h4>
+                    <div class="baker-quote">
+                        "When I was Jacob's age, my expenses were tiny - just rent for a small flat. Now with a mortgage, three kids, and a family car, my financial commitments are much higher. But when I retire like Dad, my expenses should decrease again."
+                    </div>
+                </div>
+
+                <div class="scenario-box">
+                    <h4>Financial Needs Through Life</h4>
+                    <ul>
+                        <li><strong>Childhood:</strong> Dependent on parents - learning money basics</li>
+                        <li><strong>Student:</strong> Education costs, low income, starting to budget</li>
+                        <li><strong>Early Career:</strong> Rent, transport, building savings</li>
+                        <li><strong>Family Stage:</strong> PEAK expenses - mortgage, children, insurance</li>
+                        <li><strong>Pre-Retirement:</strong> Paying off mortgage, pension planning</li>
+                        <li><strong>Retirement:</strong> Living on pension, potential care costs</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Quick Checks -->
+            <div class="section">
+                <div class="activity">
+                    <div class="activity-header">
+                        <div class="activity-icon">2</div>
+                        <h3>Quick Check: Life Cycle</h3>
+                    </div>
+                    <div id="life-q1"></div>
+                    <div id="life-q2"></div>
+                </div>
+            </div>
+
+            <!-- Insurance -->
+            <div class="section">
+                <h2>🛡️ Insurance: Protecting Against Risk</h2>
+
+                <p><strong>Insurance</strong> protects you financially against unexpected events. You pay regular premiums, and the insurer pays out if something goes wrong.</p>
+
+                <table class="knowledge-table">
+                    <thead>
+                        <tr>
+                            <th>Insurance Type</th>
+                            <th>What It Covers</th>
+                            <th>Baker Example</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Life Insurance</strong></td>
+                            <td>Pays out if you die - protects dependents</td>
+                            <td>Daniel & Sue - children depend on their income</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Car Insurance</strong></td>
+                            <td>Covers accidents, theft, damage to vehicles</td>
+                            <td>Daniel - drives to work daily</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Home Insurance</strong></td>
+                            <td>Buildings (structure) and contents (belongings)</td>
+                            <td>Daniel & Sue - protect their house and possessions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Travel Insurance</strong></td>
+                            <td>Medical costs, cancellations while abroad</td>
+                            <td>Family holidays</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Income Protection</strong></td>
+                            <td>Pays if you can't work due to illness</td>
+                            <td>Marion - learned from being made redundant</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="info-box danger">
+                    <strong>🎯 EXAM ALERT:</strong> Car insurance (at least third-party) is LEGALLY REQUIRED for all drivers!
+                </div>
+            </div>
+
+            <!-- Daniel's Insurance Needs -->
+            <div class="section">
+                <h2>🎯 Scenario: Daniel's Insurance</h2>
+
+                <div class="baker-card">
+                    <h4><div class="avatar" style="background: #4a6fa5;">D</div> Daniel's Protection</h4>
+                    <div class="baker-quote">
+                        "With a mortgage and three children, insurance is essential. If I died, life insurance would pay off the mortgage so Sue and the kids could stay in our home. Car insurance is required by law. Home insurance protects everything we've worked for."
+                    </div>
+                </div>
+
+                <div class="consequence-box">
+                    <div class="consequence-good">
+                        <strong>✓ Why Daniel Needs Insurance</strong>
+                        <ul>
+                            <li>Mortgage - bank requires buildings insurance</li>
+                            <li>Dependents - family relies on his income</li>
+                            <li>Assets - home and car worth protecting</li>
+                            <li>Legal requirement - car insurance mandatory</li>
+                        </ul>
+                    </div>
+                    <div class="consequence-bad">
+                        <strong>✗ What Could Go Wrong Without It</strong>
+                        <ul>
+                            <li>Death without life insurance - family loses home</li>
+                            <li>Car accident - massive costs, legal trouble</li>
+                            <li>House fire - lose everything with no payout</li>
+                            <li>Illness - can't pay mortgage without income</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- True/False -->
+            <div class="section">
+                <div class="activity">
+                    <div class="activity-header">
+                        <div class="activity-icon">3</div>
+                        <h3>True or False</h3>
+                    </div>
+                    <div id="life-true-false"></div>
+                </div>
+            </div>
+
+            <!-- Philippe and Lisa's Stage -->
+            <div class="section">
+                <h2>👴 Retirement Stage: Philippe and Lisa</h2>
+
+                <div class="baker-card">
+                    <h4><div class="avatar" style="background: #6c757d;">P</div> Philippe's Retirement</h4>
+                    <div class="baker-quote">
+                        "Lisa and I live on our State Pensions plus my work pension. We own our house outright - no mortgage. Our expenses are lower than when we were raising children, but we need to think about potential care costs as we get older."
+                    </div>
+                </div>
+
+                <table class="knowledge-table">
+                    <thead>
+                        <tr>
+                            <th>Retirement Concerns</th>
+                            <th>How Philippe & Lisa Address It</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Income</td>
+                            <td>State Pension + work pension + savings interest</td>
+                        </tr>
+                        <tr>
+                            <td>Housing</td>
+                            <td>Own home outright - no mortgage to pay</td>
+                        </tr>
+                        <tr>
+                            <td>Healthcare</td>
+                            <td>NHS free, but may need private care later</td>
+                        </tr>
+                        <tr>
+                            <td>Future care</td>
+                            <td>Savings set aside for potential care costs</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Fill in Blanks -->
+            <div class="section">
+                <div class="activity">
+                    <div class="activity-header">
+                        <div class="activity-icon">4</div>
+                        <h3>Fill in the Blanks</h3>
+                    </div>
+                    <div id="life-fill-blanks"></div>
+                </div>
+            </div>
+
+            <!-- Flip Cards -->
+            <div class="section">
+                <div class="activity">
+                    <div class="activity-header">
+                        <div class="activity-icon">5</div>
+                        <h3>Flip Cards: Key Terms</h3>
+                    </div>
+                    <div id="life-flip-cards"></div>
+                </div>
+            </div>
+
+            <!-- Practice Quiz -->
+            <div class="section">
+                <h2>📝 Practice Quiz</h2>
+                <div id="practice-quiz"></div>
+            </div>
+
+            <!-- Summary -->
+            <div class="section">
+                <h2>📚 Summary</h2>
+                <table class="knowledge-table">
+                    <thead><tr><th>Topic</th><th>Key Points</th></tr></thead>
+                    <tbody>
+                        <tr><td><strong>Life Cycle</strong></td><td>Childhood → Education → Career → Family → Retirement</td></tr>
+                        <tr><td><strong>Needs</strong></td><td>Essential for living - food, shelter, clothing, healthcare</td></tr>
+                        <tr><td><strong>Wants</strong></td><td>Nice to have but not essential - luxuries, entertainment</td></tr>
+                        <tr><td><strong>Peak Expenses</strong></td><td>Family stage - mortgage, children, maximum commitments</td></tr>
+                        <tr><td><strong>Insurance</strong></td><td>Protects against financial risk from unexpected events</td></tr>
+                        <tr><td><strong>Car Insurance</strong></td><td>Legally required for all drivers (minimum third-party)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Take the Test -->
+            <div class="section" style="text-align: center; background: linear-gradient(135deg, #1F4E79, #2E6B9E); color: white; padding: 30px;">
+                <h2 style="color: white; border: none; margin-bottom: 15px;">Ready to Test Your Knowledge?</h2>
+                <p style="margin-bottom: 20px;">Take the Topic 11 assessment to check your understanding. You'll receive a PDF certificate with your results.</p>
+                <a href="../../tests/topic-11-test.html" class="btn btn-warning" style="font-size: 1.1rem; padding: 14px 32px;">Take Topic 11 Test</a>
+            </div>
+
+            <!-- Navigation -->
+            <div class="section" style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+                <a href="../topic-10-foreign-exchange/index.html" class="btn btn-outline">← Topic 10</a>
+                <a href="../../index.html" class="btn btn-primary">Back to Topics</a>
+                <span></span>
+            </div>
+        </div>
+    </main>
+
+    <footer><div class="container"><p>LIBF FIS Revision | Baker Family Case Studies</p></div></footer>
+
+    <script src="../../js/quiz.js"></script>
+    <script src="../../js/card-sort.js"></script>
+    <script src="../../js/activities.js"></script>
+
+    <script>
+        // Needs vs Wants Card Sort
+        new CardSort('needs-sort', [
+            { id: 'food', text: 'Food for the family' },
+            { id: 'game', text: 'New video game' },
+            { id: 'heating', text: 'Heating in winter' },
+            { id: 'designer', text: 'Designer clothes' },
+            { id: 'rent', text: 'Rent/mortgage payment' },
+            { id: 'holiday', text: 'Holiday abroad' },
+            { id: 'transport', text: 'Transport to work' },
+            { id: 'phone', text: 'Latest smartphone' }
+        ], [
+            { id: 'needs', title: 'Needs (Essential)', correctTerms: ['food', 'heating', 'rent', 'transport'] },
+            { id: 'wants', title: 'Wants (Nice to Have)', correctTerms: ['game', 'designer', 'holiday', 'phone'] }
+        ]);
+
+        // Quick checks
+        new QuickCheck('life-q1',
+            'At which life stage are financial commitments typically HIGHEST?',
+            ['Student years', 'Early career', 'Family with children', 'Retirement'],
+            2,
+            'The family stage brings peak expenses: mortgage, childcare, larger home, education costs.'
+        );
+
+        new QuickCheck('life-q2',
+            'Which type of insurance is LEGALLY REQUIRED for drivers?',
+            ['Life insurance', 'Home insurance', 'Car insurance', 'Travel insurance'],
+            2,
+            'At minimum, third-party car insurance is required by law to drive on UK roads.'
+        );
+
+        // True/False
+        new TrueFalse('life-true-false', [
+            { statement: 'A need is something essential for basic living.', isTrue: true, explanation: 'Correct! Food, shelter, clothing, and healthcare are needs.' },
+            { statement: 'A games console is a need for Ben.', isTrue: false, explanation: 'False! A games console is a WANT - nice to have but not essential.' },
+            { statement: 'Financial needs typically peak during the family stage.', isTrue: true, explanation: 'Correct! Mortgage, children, and related costs are highest at this stage.' },
+            { statement: 'Life insurance is legally required.', isTrue: false, explanation: 'False! Life insurance is important but not legally required. CAR insurance is mandatory.' },
+            { statement: 'Philippe and Lisa still have a mortgage to pay.', isTrue: false, explanation: 'False! They own their home outright - they\'ve paid off their mortgage.' },
+            { statement: 'Insurance protects you financially against unexpected events.', isTrue: true, explanation: 'Correct! You pay premiums, and the insurer pays if something goes wrong.' }
+        ]);
+
+        // Fill blanks
+        new FillBlanks('life-fill-blanks',
+            '{0} are things essential for living, while {1} are nice to have but not essential. Financial commitments are typically highest during the {2} stage. {3} insurance is legally required for all drivers. Daniel has life insurance because his family {4} on his income.',
+            ['Needs', 'wants', 'family', 'Car', 'depends']
+        );
+
+        // Flip cards
+        new FlipCards('life-flip-cards', [
+            { front: 'Personal Life Cycle', back: 'The stages of life from childhood through retirement' },
+            { front: 'Need', back: 'Something essential for basic living - food, shelter, clothing' },
+            { front: 'Want', back: 'Something nice to have but not essential for living' },
+            { front: 'Life Insurance', back: 'Pays out if you die - protects dependents who rely on your income' },
+            { front: 'Car Insurance', back: 'Legally required - covers damage from accidents (minimum third-party)' },
+            { front: 'Home Insurance', back: 'Protects buildings (structure) and contents (belongings)' },
+            { front: 'Income Protection', back: 'Pays if you cannot work due to illness or injury' },
+            { front: 'Premium', back: 'Regular payment you make to keep your insurance policy active' }
+        ]);
+
+        // Practice quiz
+        new Quiz('practice-quiz', [
+            { question: 'A financial NEED is:', options: ['Something you would like', 'Something essential for living', 'A luxury item', 'A holiday'], correct: 1, explanation: 'Needs are essential - food, shelter, clothing, healthcare.' },
+            { question: 'Which is a WANT rather than a NEED?', options: ['Food', 'Heating', 'A games console', 'Basic clothing'], correct: 2, explanation: 'A games console is nice to have but not essential.' },
+            { question: 'Financial needs are highest at which stage?', options: ['Student', 'Early career', 'Family with children', 'Retirement'], correct: 2, explanation: 'Mortgage, children, and family costs create peak expenses.' },
+            { question: 'Which insurance is LEGALLY REQUIRED?', options: ['Life insurance', 'Car insurance', 'Travel insurance', 'Pet insurance'], correct: 1, explanation: 'Third-party car insurance is the legal minimum for drivers.' },
+            { question: 'Why does Daniel have life insurance?', options: ['It\'s required by law', 'His dependents rely on his income', 'It\'s free', 'His employer forces him'], correct: 1, explanation: 'Life insurance protects his family if he dies.' },
+            { question: 'Philippe and Lisa are at which life stage?', options: ['Career building', 'Family raising', 'Pre-retirement', 'Retirement'], correct: 3, explanation: 'In their 70s and no longer working, they are retired.' }
+        ]);
+    </script>
 </body>
 </html>
