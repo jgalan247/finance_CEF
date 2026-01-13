@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic 10 Test: Foreign Exchange | LIBF FIS</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/test-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>LIBF FIS Assessment</h1>
+            <p class="subtitle">Topic 10: Foreign Exchange</p>
+        </div>
+    </header>
+
+    <nav class="breadcrumb">
+        <div class="container">
+            <a href="../index.html">Home</a>
+            <span>›</span>
+            <a href="../topics/topic-10-foreign-exchange/index.html">Topic 10</a>
+            <span>›</span>
+            <span>Test</span>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="section">
+                <div class="info-box tip">
+                    <strong>Instructions:</strong> Answer all questions by selecting one option for each. When you have finished, click "Submit Test" to see your results. A PDF certificate will be automatically downloaded with your score.
+                </div>
+
+                <div id="topic-10-test"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>LIBF FIS Revision | Assessment Centre</p>
+        </div>
+    </footer>
+
+    <script src="../js/test-engine.js"></script>
+    <script>
+        // Topic 10 Test: Foreign Exchange
+        new FISTest('topic-10-test', {
+            topicNumber: 10,
+            topicName: 'Foreign Exchange',
+            questions: [
+                {
+                    question: 'Japan\'s currency is:',
+                    options: [
+                        'Yuan',
+                        'Euro',
+                        'Dollar',
+                        'Yen'
+                    ],
+                    correct: 3,
+                    explanation: 'Japan\'s currency is the Yen (¥). The Yuan is Chinese.'
+                },
+                {
+                    question: 'SPICED helps you remember that a STRONG pound makes:',
+                    options: [
+                        'Imports expensive, exports cheap',
+                        'Imports cheap, exports dear (expensive)',
+                        'Both imports and exports cheap',
+                        'Both imports and exports expensive'
+                    ],
+                    correct: 1,
+                    explanation: 'SPICED = Strong Pound Imports Cheap, Exports Dear. A strong pound is good for buying imports but makes UK exports expensive for foreigners.'
+                },
+                {
+                    question: 'If the pound STRENGTHENS against the euro, a UK holiday to Spain becomes:',
+                    options: [
+                        'More expensive',
+                        'Cheaper',
+                        'The same price',
+                        'Impossible'
+                    ],
+                    correct: 1,
+                    explanation: 'A stronger pound buys more euros, so your holiday spending money goes further. Spain becomes cheaper for UK tourists.'
+                },
+                {
+                    question: 'A weak pound for the UK typically means:',
+                    options: [
+                        'Higher interest rates',
+                        'Fewer tourists visiting UK',
+                        'More tourists visiting UK',
+                        'Lower export levels'
+                    ],
+                    correct: 2,
+                    explanation: 'A weak pound makes the UK cheaper for foreign tourists, so MORE visit. It also makes UK exports cheaper for foreigners.'
+                },
+                {
+                    question: 'Richard imports clay from France. If the pound WEAKENS, his costs will:',
+                    options: [
+                        'Decrease',
+                        'Increase',
+                        'Stay the same',
+                        'Disappear'
+                    ],
+                    correct: 1,
+                    explanation: 'Weak pound = imports more expensive. Richard gets fewer euros per pound, so his French clay costs more.'
+                },
+                {
+                    question: 'A bureau de change is:',
+                    options: [
+                        'A type of French restaurant',
+                        'A place to exchange currencies',
+                        'The European Central Bank',
+                        'A government department'
+                    ],
+                    correct: 1,
+                    explanation: 'A bureau de change is a currency exchange service, often found at airports and tourist areas.'
+                },
+                {
+                    question: 'The Euro (€) is used in:',
+                    options: [
+                        'Japan',
+                        'USA',
+                        'France and Germany',
+                        'United Kingdom'
+                    ],
+                    correct: 2,
+                    explanation: 'The Euro is used in Eurozone countries including France, Germany, Spain, Italy, and others.'
+                },
+                {
+                    question: 'If £1 = €1.20 changes to £1 = €1.30, the pound has:',
+                    options: [
+                        'Weakened',
+                        'Strengthened',
+                        'Stayed the same',
+                        'Crashed'
+                    ],
+                    correct: 1,
+                    explanation: 'You get MORE euros per pound (1.30 instead of 1.20), so the pound has strengthened.'
+                },
+                {
+                    question: 'A strong pound is BAD for:',
+                    options: [
+                        'UK tourists going abroad',
+                        'UK consumers buying imports',
+                        'UK businesses exporting goods',
+                        'UK people buying foreign products online'
+                    ],
+                    correct: 2,
+                    explanation: 'A strong pound makes UK exports more expensive for foreign buyers, reducing demand for UK products abroad.'
+                },
+                {
+                    question: 'Bureau de change makes profit from:',
+                    options: [
+                        'Government grants',
+                        'The spread between buy and sell rates, plus commission',
+                        'Currency printing',
+                        'Bank loans'
+                    ],
+                    correct: 1,
+                    explanation: 'They offer different rates for buying and selling currency (the spread), plus often charge commission fees.'
+                }
+            ],
+            caseStudies: [
+                {
+                    title: 'Karen and Wayne\'s Cruise',
+                    scenario: `
+                        <p><strong>Karen (58) and Wayne (60)</strong> have booked a cruise to the Norwegian fjords. They'll need Norwegian Kroner (NOK) for spending money.</p>
+                        <p>Current exchange rate: £1 = 13 NOK</p>
+                        <p>They want to exchange £500 for spending money.</p>
+                        <p>They're watching the news because exchange rates might change before their trip.</p>
+                    `,
+                    questions: [
+                        {
+                            question: 'At £1 = 13 NOK, how many Norwegian Kroner would Karen and Wayne get for £500?',
+                            options: [
+                                '5,000 NOK',
+                                '6,500 NOK',
+                                '7,500 NOK',
+                                '13,000 NOK'
+                            ],
+                            correct: 1,
+                            explanation: '£500 × 13 = 6,500 NOK.'
+                        },
+                        {
+                            question: 'If the pound STRENGTHENS to £1 = 15 NOK before their trip, what happens?',
+                            options: [
+                                'They get fewer kroner - bad news',
+                                'They get more kroner - good news',
+                                'No change',
+                                'Their cruise is cancelled'
+                            ],
+                            correct: 1,
+                            explanation: 'A stronger pound buys more foreign currency. £500 × 15 = 7,500 NOK instead of 6,500 NOK.'
+                        },
+                        {
+                            question: 'If the pound WEAKENS to £1 = 11 NOK, they would get:',
+                            options: [
+                                '5,500 NOK - less spending money',
+                                '7,000 NOK - more spending money',
+                                '11,000 NOK',
+                                '13,000 NOK'
+                            ],
+                            correct: 0,
+                            explanation: '£500 × 11 = 5,500 NOK. A weaker pound means less foreign currency for their money.'
+                        }
+                    ]
+                },
+                {
+                    title: 'Richard\'s Import Costs',
+                    scenario: `
+                        <p><strong>Richard</strong> imports special clay from France for his premium pottery. He buys €500 worth of clay each month.</p>
+                        <p>Current exchange rate: £1 = €1.15</p>
+                        <p>Richard is concerned about how exchange rate changes might affect his business costs.</p>
+                    `,
+                    questions: [
+                        {
+                            question: 'At £1 = €1.15, how much does Richard pay in pounds for €500 of clay?',
+                            options: [
+                                'About £435',
+                                'About £500',
+                                'About £575',
+                                'About £650'
+                            ],
+                            correct: 0,
+                            explanation: '€500 ÷ 1.15 = approximately £435. He needs £435 to buy €500.'
+                        },
+                        {
+                            question: 'If the pound strengthens to £1 = €1.25, Richard\'s clay costs:',
+                            options: [
+                                'Increase - bad for Richard',
+                                'Decrease - good for Richard',
+                                'Stay the same',
+                                'Become free'
+                            ],
+                            correct: 1,
+                            explanation: 'SPICED: Strong Pound Imports Cheap. €500 ÷ 1.25 = £400. His costs decrease.'
+                        },
+                        {
+                            question: 'If the pound weakens to £1 = €1.00, Richard would need to pay:',
+                            options: [
+                                '£400 for his clay',
+                                '£435 for his clay',
+                                '£500 for his clay',
+                                '€500 for his clay'
+                            ],
+                            correct: 2,
+                            explanation: 'At £1 = €1, one pound equals one euro, so €500 = £500. His costs increase significantly.'
+                        }
+                    ]
+                }
+            ]
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic 11 Test: Personal Life Cycle | LIBF FIS</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/test-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>LIBF FIS Assessment</h1>
+            <p class="subtitle">Topic 11: Personal Life Cycle</p>
+        </div>
+    </header>
+
+    <nav class="breadcrumb">
+        <div class="container">
+            <a href="../index.html">Home</a>
+            <span>›</span>
+            <a href="../topics/topic-11-life-cycle/index.html">Topic 11</a>
+            <span>›</span>
+            <span>Test</span>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="section">
+                <div class="info-box tip">
+                    <strong>Instructions:</strong> Answer all questions by selecting one option for each. When you have finished, click "Submit Test" to see your results. A PDF certificate will be automatically downloaded with your score.
+                </div>
+
+                <div id="topic-11-test"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>LIBF FIS Revision | Assessment Centre</p>
+        </div>
+    </footer>
+
+    <script src="../js/test-engine.js"></script>
+    <script>
+        // Topic 11 Test: Personal Life Cycle
+        new FISTest('topic-11-test', {
+            topicNumber: 11,
+            topicName: 'Personal Life Cycle',
+            questions: [
+                {
+                    question: 'A financial NEED is:',
+                    options: [
+                        'Something you would like to have',
+                        'Something essential for basic living',
+                        'The latest smartphone',
+                        'A holiday abroad'
+                    ],
+                    correct: 1,
+                    explanation: 'Needs are essentials for survival and basic living - food, shelter, clothing, utilities. Wants are non-essential desires.'
+                },
+                {
+                    question: 'Which of the following is a WANT rather than a NEED?',
+                    options: [
+                        'Food for the family',
+                        'Heating in winter',
+                        'A games console',
+                        'Basic clothing'
+                    ],
+                    correct: 2,
+                    explanation: 'A games console is a want - nice to have but not essential for living. Food, heating, and basic clothing are needs.'
+                },
+                {
+                    question: 'At which life stage do financial needs typically INCREASE significantly?',
+                    options: [
+                        'Being a student',
+                        'Starting a family and buying a home',
+                        'Retirement',
+                        'Being a teenager'
+                    ],
+                    correct: 1,
+                    explanation: 'Starting a family brings major expenses: mortgage/rent increase, childcare, larger car, more food, children\'s clothing, etc.'
+                },
+                {
+                    question: 'Jacob (19, university student) is at which stage of the personal life cycle?',
+                    options: [
+                        'Childhood',
+                        'Early adulthood/education',
+                        'Career building',
+                        'Retirement'
+                    ],
+                    correct: 1,
+                    explanation: 'As a university student, Jacob is in early adulthood - studying while working part-time, building skills for future career.'
+                },
+                {
+                    question: 'Philippe and Lisa (70s) are at which stage of the personal life cycle?',
+                    options: [
+                        'Career building',
+                        'Family raising',
+                        'Pre-retirement',
+                        'Retirement'
+                    ],
+                    correct: 3,
+                    explanation: 'In their 70s and no longer working, Philippe and Lisa are in the retirement stage of the life cycle.'
+                },
+                {
+                    question: 'Insurance protects you against:',
+                    options: [
+                        'Guaranteed events',
+                        'Financial risks from unexpected events',
+                        'All possible losses',
+                        'Low interest rates'
+                    ],
+                    correct: 1,
+                    explanation: 'Insurance provides financial protection against the risk of unexpected events like illness, accidents, or theft.'
+                },
+                {
+                    question: 'Which type of insurance is a legal requirement for car owners?',
+                    options: [
+                        'Comprehensive insurance',
+                        'Third-party insurance (minimum)',
+                        'Life insurance',
+                        'Contents insurance'
+                    ],
+                    correct: 1,
+                    explanation: 'Third-party motor insurance is the legal minimum. It covers damage you cause to others, though not your own vehicle.'
+                },
+                {
+                    question: 'Daniel and Sue have a mortgage and three children. Which insurance might be particularly important for them?',
+                    options: [
+                        'Pet insurance',
+                        'Travel insurance',
+                        'Life insurance',
+                        'Gadget insurance'
+                    ],
+                    correct: 2,
+                    explanation: 'Life insurance is important when you have dependents and debts. It provides for the family if a parent dies.'
+                },
+                {
+                    question: 'As people move through life stages, their financial priorities typically:',
+                    options: [
+                        'Stay exactly the same',
+                        'Change according to their circumstances',
+                        'Only increase',
+                        'Only decrease'
+                    ],
+                    correct: 1,
+                    explanation: 'Financial needs and priorities change throughout life - students focus on education, families on housing, retirees on income security.'
+                },
+                {
+                    question: 'Ben (14) relies on his parents financially. His main financial responsibility at this stage is:',
+                    options: [
+                        'Paying the mortgage',
+                        'Learning to manage pocket money and save',
+                        'Buying the family\'s food',
+                        'Paying for car insurance'
+                    ],
+                    correct: 1,
+                    explanation: 'At 14, Ben is learning financial skills by managing pocket money and saving towards goals - preparing for future independence.'
+                }
+            ],
+            caseStudies: [
+                {
+                    title: 'The Baker Family Life Stages',
+                    scenario: `
+                        <p>The Baker family spans three generations, each at different life stages:</p>
+                        <ul>
+                            <li><strong>Philippe & Lisa (70s)</strong>: Retired, own home outright, living on pensions</li>
+                            <li><strong>Daniel & Sue (40s)</strong>: Working, mortgage, raising three children</li>
+                            <li><strong>Richard (40s)</strong>: Self-employed, renting workshop, single</li>
+                            <li><strong>Marion (40s)</strong>: Working, renting flat, building savings after redundancy</li>
+                            <li><strong>Jacob (19)</strong>: University student, part-time work</li>
+                            <li><strong>Sophie (17)</strong>: School student, pocket money</li>
+                            <li><strong>Ben (14)</strong>: School student, pocket money, saving for phone</li>
+                        </ul>
+                    `,
+                    questions: [
+                        {
+                            question: 'Which family member has the HIGHEST financial commitments right now?',
+                            options: [
+                                'Ben (14, school student)',
+                                'Jacob (19, university student)',
+                                'Daniel (40s, mortgage, three children)',
+                                'Philippe (70s, retired)'
+                            ],
+                            correct: 2,
+                            explanation: 'Daniel has a mortgage and three dependent children - the peak of financial commitments in the life cycle.'
+                        },
+                        {
+                            question: 'Philippe and Lisa\'s main financial concern at their life stage is likely:',
+                            options: [
+                                'Getting a mortgage',
+                                'Paying for university',
+                                'Making their pension income last and paying for care if needed',
+                                'Saving for their first car'
+                            ],
+                            correct: 2,
+                            explanation: 'In retirement, concerns shift to income security, healthcare costs, and potentially funding care needs.'
+                        },
+                        {
+                            question: 'Jacob\'s financial needs will likely INCREASE when he:',
+                            options: [
+                                'Finishes his degree',
+                                'Gets a part-time job',
+                                'Graduates, starts career, and lives independently',
+                                'Moves back with his parents'
+                            ],
+                            correct: 2,
+                            explanation: 'When Jacob graduates and lives independently, he\'ll need to pay for housing, bills, transport, food - all his own expenses.'
+                        }
+                    ]
+                },
+                {
+                    title: 'Insurance Needs at Different Life Stages',
+                    scenario: `
+                        <p>Different Baker family members need different types of insurance:</p>
+                        <ul>
+                            <li><strong>Daniel</strong>: Has car, home, and life insurance</li>
+                            <li><strong>Jacob</strong>: Has contents insurance for his uni room, travel insurance for trips</li>
+                            <li><strong>Philippe</strong>: Has home insurance and considered long-term care insurance</li>
+                            <li><strong>Marion</strong>: Has car insurance and is considering income protection insurance</li>
+                        </ul>
+                    `,
+                    questions: [
+                        {
+                            question: 'Why does Daniel have life insurance but Jacob doesn\'t?',
+                            options: [
+                                'Jacob is too young to buy insurance',
+                                'Daniel has dependents (children) who rely on his income',
+                                'Life insurance is only for old people',
+                                'Jacob doesn\'t believe in insurance'
+                            ],
+                            correct: 1,
+                            explanation: 'Life insurance is most important when others depend on your income. Daniel\'s children need protecting; Jacob has no dependents.'
+                        },
+                        {
+                            question: 'Marion is considering income protection insurance because:',
+                            options: [
+                                'It\'s required by law',
+                                'She was once made redundant and knows her income isn\'t guaranteed',
+                                'It\'s free',
+                                'Her employer requires it'
+                            ],
+                            correct: 1,
+                            explanation: 'Having experienced redundancy, Marion understands the risk of losing income and wants protection.'
+                        },
+                        {
+                            question: 'Philippe is considering care insurance because at his life stage:',
+                            options: [
+                                'He wants to go into care immediately',
+                                'Care costs can be very high and might be needed in later retirement',
+                                'It\'s required by the NHS',
+                                'His children told him to'
+                            ],
+                            correct: 1,
+                            explanation: 'Care home costs can be substantial. Planning ahead helps protect savings and ensure quality care if needed.'
+                        }
+                    ]
+                }
+            ]
+        });
+    </script>
+</body>
+</html>

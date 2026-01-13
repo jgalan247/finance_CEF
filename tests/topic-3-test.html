@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic 3 Test: Money | LIBF FIS</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/test-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>LIBF FIS Assessment</h1>
+            <p class="subtitle">Topic 3: What is Money?</p>
+        </div>
+    </header>
+
+    <nav class="breadcrumb">
+        <div class="container">
+            <a href="../index.html">Home</a>
+            <span>›</span>
+            <a href="../topics/topic-3-money/index.html">Topic 3</a>
+            <span>›</span>
+            <span>Test</span>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="section">
+                <div class="info-box tip">
+                    <strong>Instructions:</strong> Answer all questions by selecting one option for each. When you have finished, click "Submit Test" to see your results. A PDF certificate will be automatically downloaded with your score.
+                </div>
+
+                <div id="topic-3-test"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>LIBF FIS Revision | Assessment Centre</p>
+        </div>
+    </footer>
+
+    <script src="../js/test-engine.js"></script>
+    <script>
+        // Topic 3 Test: Money
+        new FISTest('topic-3-test', {
+            topicNumber: 3,
+            topicName: 'What is Money',
+            questions: [
+                {
+                    question: 'Which of the following is NOT one of the four functions of money?',
+                    options: [
+                        'Medium of exchange',
+                        'Store of value',
+                        'Source of income',
+                        'Unit of account'
+                    ],
+                    correct: 2,
+                    explanation: 'The four functions are: medium of exchange, store of value, unit of account, and method of deferred payment. Source of income is not a function of money.'
+                },
+                {
+                    question: 'Ben saves money in his building society account for a smartphone. This demonstrates money as a:',
+                    options: [
+                        'Medium of exchange',
+                        'Store of value',
+                        'Unit of account',
+                        'Method of deferred payment'
+                    ],
+                    correct: 1,
+                    explanation: 'Saving money demonstrates its function as a store of value - it keeps its worth over time.'
+                },
+                {
+                    question: 'Decimalisation in the UK happened on:',
+                    options: [
+                        '15 February 1961',
+                        '15 February 1971',
+                        '15 February 1981',
+                        '15 February 1991'
+                    ],
+                    correct: 1,
+                    explanation: 'Decimal Day was 15 February 1971 - in the 1970s, NOT the 1960s!'
+                },
+                {
+                    question: 'Before decimalisation, how many old pence were there in one pound?',
+                    options: [
+                        '100',
+                        '144',
+                        '200',
+                        '240'
+                    ],
+                    correct: 3,
+                    explanation: 'Before 1971, there were 12 pence in a shilling and 20 shillings in a pound: 12 × 20 = 240 old pence per pound.'
+                },
+                {
+                    question: 'Which feature of money means it must be easy to carry around?',
+                    options: [
+                        'Durable',
+                        'Divisible',
+                        'Portable',
+                        'Acceptable'
+                    ],
+                    correct: 2,
+                    explanation: 'Portable means money is easy to carry. Cards are even more portable than coins and notes.'
+                },
+                {
+                    question: 'UK polymer banknotes have holograms and watermarks. This is an example of which feature?',
+                    options: [
+                        'Durable',
+                        'Difficult to counterfeit',
+                        'Portable',
+                        'Divisible'
+                    ],
+                    correct: 1,
+                    explanation: 'Security features like holograms and watermarks make money difficult to counterfeit (fake).'
+                },
+                {
+                    question: 'A market stall with NO electricity can accept which payment methods?',
+                    options: [
+                        'Debit cards and credit cards',
+                        'Cash and cheques only',
+                        'Mobile payments only',
+                        'All payment methods'
+                    ],
+                    correct: 1,
+                    explanation: 'Without electricity, card readers and mobile payments won\'t work. Only cash and cheques work without power.'
+                },
+                {
+                    question: 'Sue pays her credit card bill at the end of the month. This demonstrates money as a:',
+                    options: [
+                        'Medium of exchange',
+                        'Store of value',
+                        'Unit of account',
+                        'Method of deferred payment'
+                    ],
+                    correct: 3,
+                    explanation: 'Using money to pay debts later demonstrates money as a method of deferred payment.'
+                },
+                {
+                    question: 'The Bank of England controls how much money is printed. This relates to which feature of money?',
+                    options: [
+                        'Acceptable',
+                        'Durable',
+                        'Scarce',
+                        'Portable'
+                    ],
+                    correct: 2,
+                    explanation: 'Controlling the money supply keeps it scarce, which helps maintain its value.'
+                },
+                {
+                    question: 'Which is an ADVANTAGE of using cash as a payment method?',
+                    options: [
+                        'Can easily be lost or stolen',
+                        'Accepted everywhere with no fees',
+                        'Heavy to carry large amounts',
+                        'Need exact change'
+                    ],
+                    correct: 1,
+                    explanation: 'Cash is accepted everywhere and has no transaction fees. The other options are disadvantages of cash.'
+                }
+            ],
+            caseStudies: [
+                {
+                    title: 'Ben\'s Savings Goal',
+                    scenario: `
+                        <p><strong>Ben</strong> is 14 and wants to buy a smartphone that costs £300. He receives pocket money from his parents and earns extra money mowing neighbours' lawns.</p>
+                        <p>Ben keeps his money in different places:</p>
+                        <ul>
+                            <li>Cash in wallet: £15</li>
+                            <li>Building society account: £230</li>
+                            <li>Money jar at home: £8.50</li>
+                        </ul>
+                        <p>His parents have promised to match whatever he saves by the end of the year.</p>
+                    `,
+                    questions: [
+                        {
+                            question: 'The smartphone costs £300. This price demonstrates money as a:',
+                            options: [
+                                'Medium of exchange',
+                                'Store of value',
+                                'Unit of account',
+                                'Method of deferred payment'
+                            ],
+                            correct: 2,
+                            explanation: 'Using money to measure and express the value of things (prices) demonstrates money as a unit of account.'
+                        },
+                        {
+                            question: 'What is Ben\'s total money across all his savings?',
+                            options: [
+                                '£230.00',
+                                '£245.00',
+                                '£253.50',
+                                '£300.00'
+                            ],
+                            correct: 2,
+                            explanation: '£15 + £230 + £8.50 = £253.50. Ben has savings in different forms but they all represent money.'
+                        },
+                        {
+                            question: 'Ben\'s building society account balance is an example of:',
+                            options: [
+                                'Physical cash money',
+                                'Electronic/digital money',
+                                'Foreign currency',
+                                'Credit'
+                            ],
+                            correct: 1,
+                            explanation: 'Money in a bank or building society account is electronic - it exists as a number on their computer system, not as physical cash.'
+                        }
+                    ]
+                },
+                {
+                    title: 'Chloe\'s Market Stall',
+                    scenario: `
+                        <p><strong>Chloe</strong> runs a market stall selling handmade jewellery. Her stall has NO electricity, which limits the payment methods she can accept.</p>
+                        <p>Yesterday, she had several customers:</p>
+                        <ul>
+                            <li>Customer 1 wanted to pay by debit card</li>
+                            <li>Customer 2 paid with a £20 note</li>
+                            <li>Customer 3 wanted to use contactless payment</li>
+                            <li>Customer 4 paid by cheque</li>
+                        </ul>
+                    `,
+                    questions: [
+                        {
+                            question: 'Which customers could Chloe accept payment from?',
+                            options: [
+                                'Customer 1 and Customer 3 only',
+                                'Customer 2 and Customer 4 only',
+                                'All four customers',
+                                'Customer 2 only'
+                            ],
+                            correct: 1,
+                            explanation: 'Without electricity, Chloe cannot accept card payments (debit, credit, or contactless). She can only accept cash (Customer 2) and cheques (Customer 4).'
+                        },
+                        {
+                            question: 'If Customer 2\'s purchase was £12.50, Chloe would need to give:',
+                            options: [
+                                '£5.50 change',
+                                '£7.50 change',
+                                '£8.50 change',
+                                'No change needed'
+                            ],
+                            correct: 1,
+                            explanation: '£20 - £12.50 = £7.50 change. This demonstrates why having sufficient change is important for cash transactions.'
+                        },
+                        {
+                            question: 'A disadvantage for Chloe of accepting cheques is that:',
+                            options: [
+                                'Cheques are illegal',
+                                'Cheques take time to clear and can bounce',
+                                'Cheques require electricity to process',
+                                'Cheques can only be used once'
+                            ],
+                            correct: 1,
+                            explanation: 'Cheques take several days to clear (process), and can "bounce" if the customer doesn\'t have enough money in their account.'
+                        }
+                    ]
+                }
+            ]
+        });
+    </script>
+</body>
+</html>

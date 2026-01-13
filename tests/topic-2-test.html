@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic 2 Test: Government & Personal Finance | LIBF FIS</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/test-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>LIBF FIS Assessment</h1>
+            <p class="subtitle">Topic 2: Government & Personal Finance</p>
+        </div>
+    </header>
+
+    <nav class="breadcrumb">
+        <div class="container">
+            <a href="../index.html">Home</a>
+            <span>›</span>
+            <a href="../topics/topic-2-government/index.html">Topic 2</a>
+            <span>›</span>
+            <span>Test</span>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="section">
+                <div class="info-box tip">
+                    <strong>Instructions:</strong> Answer all questions by selecting one option for each. When you have finished, click "Submit Test" to see your results. A PDF certificate will be automatically downloaded with your score.
+                </div>
+
+                <div id="topic-2-test"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>LIBF FIS Revision | Assessment Centre</p>
+        </div>
+    </footer>
+
+    <script src="../js/test-engine.js"></script>
+    <script>
+        // Topic 2 Test: Government & Personal Finance
+        new FISTest('topic-2-test', {
+            topicNumber: 2,
+            topicName: 'Government & Personal Finance',
+            questions: [
+                {
+                    question: 'Which government minister is responsible for managing the country\'s finances and taxation?',
+                    options: [
+                        'Prime Minister',
+                        'Chancellor of the Exchequer',
+                        'Home Secretary',
+                        'Foreign Secretary'
+                    ],
+                    correct: 1,
+                    explanation: 'The Chancellor of the Exchequer is the government minister responsible for the Treasury, which manages government finances including taxation.'
+                },
+                {
+                    question: 'Government fiscal policy refers to decisions about:',
+                    options: [
+                        'Interest rates and money supply',
+                        'International trade agreements',
+                        'Taxation and government spending',
+                        'Environmental regulations'
+                    ],
+                    correct: 2,
+                    explanation: 'Fiscal policy involves government decisions about taxation (how much to collect) and spending (how to allocate it).'
+                },
+                {
+                    question: 'If the government INCREASES income tax, what is the likely effect on people\'s disposable income?',
+                    options: [
+                        'It will increase',
+                        'It will decrease',
+                        'It will stay the same',
+                        'It will double'
+                    ],
+                    correct: 1,
+                    explanation: 'Higher income tax means more money goes to the government, leaving less disposable income (money after tax) for individuals.'
+                },
+                {
+                    question: 'The government provides public services such as the NHS, schools, and roads. These are funded mainly through:',
+                    options: [
+                        'Private donations',
+                        'Bank loans only',
+                        'Taxation',
+                        'Printing more money'
+                    ],
+                    correct: 2,
+                    explanation: 'Public services are primarily funded through taxes collected from individuals and businesses.'
+                },
+                {
+                    question: 'Which of the following is an example of government spending that directly affects households?',
+                    options: [
+                        'Military equipment purchases',
+                        'Child Benefit payments',
+                        'Diplomatic embassy costs',
+                        'Government building maintenance'
+                    ],
+                    correct: 1,
+                    explanation: 'Child Benefit is a government payment made directly to households with children, directly affecting family finances.'
+                },
+                {
+                    question: 'The annual statement when the Chancellor announces tax and spending plans is called:',
+                    options: [
+                        'The Financial Report',
+                        'The Budget',
+                        'The Tax Declaration',
+                        'The Spending Review'
+                    ],
+                    correct: 1,
+                    explanation: 'The Budget is the annual statement where the Chancellor announces government tax and spending plans.'
+                },
+                {
+                    question: 'If the government reduces VAT, what effect would this have on prices in shops?',
+                    options: [
+                        'Prices would likely increase',
+                        'Prices would likely decrease',
+                        'Prices would stay exactly the same',
+                        'Only food prices would change'
+                    ],
+                    correct: 1,
+                    explanation: 'VAT is included in prices. If VAT is reduced, the cost of goods should decrease, making them cheaper for consumers.'
+                },
+                {
+                    question: 'Government decisions about interest rates in the UK are made by:',
+                    options: [
+                        'The Prime Minister',
+                        'The Chancellor of the Exchequer',
+                        'The Bank of England\'s Monetary Policy Committee',
+                        'The House of Commons'
+                    ],
+                    correct: 2,
+                    explanation: 'Interest rate decisions in the UK are made by the Bank of England\'s Monetary Policy Committee (MPC), independent of government.'
+                },
+                {
+                    question: 'Which benefit might Philippe and Lisa (both in their 70s) receive from the government?',
+                    options: [
+                        'Jobseeker\'s Allowance',
+                        'Statutory Maternity Pay',
+                        'State Pension',
+                        'Student Finance'
+                    ],
+                    correct: 2,
+                    explanation: 'As retired individuals over State Pension age, Philippe and Lisa would receive the State Pension from the government.'
+                },
+                {
+                    question: 'Austerity is a government policy that involves:',
+                    options: [
+                        'Increasing government spending significantly',
+                        'Reducing government spending and/or increasing taxes',
+                        'Printing more money',
+                        'Lowering interest rates'
+                    ],
+                    correct: 1,
+                    explanation: 'Austerity refers to government policies aimed at reducing budget deficits through spending cuts and/or tax increases.'
+                }
+            ],
+            caseStudies: [
+                {
+                    title: 'The Baker Family Budget',
+                    scenario: `
+                        <p>The government has announced changes in its annual Budget. The Chancellor has decided to:</p>
+                        <ul>
+                            <li>Increase the Personal Allowance (tax-free amount) from £12,570 to £13,000</li>
+                            <li>Freeze the State Pension for one year</li>
+                            <li>Increase fuel duty by 5p per litre</li>
+                        </ul>
+                        <p>The Baker family needs to understand how these changes will affect them.</p>
+                    `,
+                    questions: [
+                        {
+                            question: 'The increase in Personal Allowance will benefit:',
+                            options: [
+                                'Only retired people',
+                                'Working people who pay income tax',
+                                'Only people on benefits',
+                                'Only business owners'
+                            ],
+                            correct: 1,
+                            explanation: 'A higher Personal Allowance means working people keep more of their earnings before paying tax, increasing their disposable income.'
+                        },
+                        {
+                            question: 'Which Baker family members would be MOST negatively affected by the State Pension freeze?',
+                            options: [
+                                'Jacob and Sophie (students)',
+                                'Daniel and Sue (working adults)',
+                                'Philippe and Lisa (retired)',
+                                'Ben (school student)'
+                            ],
+                            correct: 2,
+                            explanation: 'Philippe and Lisa rely on the State Pension for income. A freeze means their pension doesn\'t increase while prices rise, making them worse off.'
+                        },
+                        {
+                            question: 'The fuel duty increase will affect Daniel who drives to work. This is an example of:',
+                            options: [
+                                'A direct tax increase',
+                                'An indirect tax increase',
+                                'A decrease in income tax',
+                                'A change to National Insurance'
+                            ],
+                            correct: 1,
+                            explanation: 'Fuel duty is an indirect tax - it\'s added to the price of fuel rather than being paid directly to HMRC.'
+                        }
+                    ]
+                },
+                {
+                    title: 'Marion\'s Benefits',
+                    scenario: `
+                        <p><strong>Marion</strong> was made redundant from her job at an events company during an economic downturn. She was unemployed for four months before finding a new job at the Grand Hotel.</p>
+                        <p>During her unemployment, Marion claimed Jobseeker's Allowance from the government. However, she found that the £334 per month she received was much less than her previous salary of £1,833 per month.</p>
+                        <p>Marion had to move back in with her parents because she couldn't afford her flat on benefits alone.</p>
+                    `,
+                    questions: [
+                        {
+                            question: 'Jobseeker\'s Allowance is an example of:',
+                            options: [
+                                'A tax rebate',
+                                'A government benefit for unemployed people',
+                                'A loan from the bank',
+                                'Private insurance payout'
+                            ],
+                            correct: 1,
+                            explanation: 'Jobseeker\'s Allowance is a government benefit designed to provide financial support to people who are unemployed and seeking work.'
+                        },
+                        {
+                            question: 'Why could Marion not maintain her lifestyle on Jobseeker\'s Allowance alone?',
+                            options: [
+                                'Because she was spending too much',
+                                'Because benefits are designed to cover basic needs, not replace full salary',
+                                'Because she didn\'t apply for other benefits',
+                                'Because her parents charged too much rent'
+                            ],
+                            correct: 1,
+                            explanation: 'Government benefits provide a safety net for basic needs, but are typically much lower than earnings from employment.'
+                        },
+                        {
+                            question: 'Marion\'s experience teaches us the importance of:',
+                            options: [
+                                'Relying on parents for housing',
+                                'Never changing jobs',
+                                'Having emergency savings',
+                                'Avoiding the job market'
+                            ],
+                            correct: 2,
+                            explanation: 'Marion learned that benefits don\'t cover her full expenses. Having savings provides a buffer during unexpected unemployment.'
+                        }
+                    ]
+                }
+            ]
+        });
+    </script>
+</body>
+</html>

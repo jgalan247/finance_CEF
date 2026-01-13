@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic 8 Test: Inflation & Interest | LIBF FIS</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/test-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>LIBF FIS Assessment</h1>
+            <p class="subtitle">Topic 8: Inflation & Interest Rates</p>
+        </div>
+    </header>
+
+    <nav class="breadcrumb">
+        <div class="container">
+            <a href="../index.html">Home</a>
+            <span>›</span>
+            <a href="../topics/topic-8-inflation-interest/index.html">Topic 8</a>
+            <span>›</span>
+            <span>Test</span>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="section">
+                <div class="info-box tip">
+                    <strong>Instructions:</strong> Answer all questions by selecting one option for each. When you have finished, click "Submit Test" to see your results. A PDF certificate will be automatically downloaded with your score.
+                </div>
+
+                <div id="topic-8-test"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>LIBF FIS Revision | Assessment Centre</p>
+        </div>
+    </footer>
+
+    <script src="../js/test-engine.js"></script>
+    <script>
+        // Topic 8 Test: Inflation & Interest Rates
+        new FISTest('topic-8-test', {
+            topicNumber: 8,
+            topicName: 'Inflation & Interest Rates',
+            questions: [
+                {
+                    question: 'The Bank of England\'s inflation target is:',
+                    options: [
+                        '0%',
+                        '2%',
+                        '5%',
+                        '10%'
+                    ],
+                    correct: 1,
+                    explanation: 'The Bank of England targets 2% inflation. The Monetary Policy Committee (MPC) adjusts interest rates to achieve this.'
+                },
+                {
+                    question: 'If a savings account pays 4% interest and inflation is 6%, the REAL interest rate is:',
+                    options: [
+                        '+10%',
+                        '+4%',
+                        '-2%',
+                        '+2%'
+                    ],
+                    correct: 2,
+                    explanation: 'Real interest rate = Nominal rate - Inflation = 4% - 6% = -2%. Your money is losing purchasing power.'
+                },
+                {
+                    question: 'Compound interest differs from simple interest because:',
+                    options: [
+                        'It is always lower',
+                        'Interest is calculated on the original amount plus previously earned interest',
+                        'It only applies to loans',
+                        'It is set by the government'
+                    ],
+                    correct: 1,
+                    explanation: 'Compound interest is calculated on the principal plus accumulated interest. This makes savings grow faster, but also makes debts grow faster.'
+                },
+                {
+                    question: 'Daniel has a FIXED-rate mortgage. If the Bank of England raises interest rates, his payments will:',
+                    options: [
+                        'Increase',
+                        'Decrease',
+                        'Stay the same',
+                        'Double'
+                    ],
+                    correct: 2,
+                    explanation: 'Fixed-rate mortgages are unaffected by Bank rate changes. The rate stays the same for the fixed period.'
+                },
+                {
+                    question: 'Marion has a VARIABLE-rate mortgage. If the Bank of England raises interest rates, her payments will:',
+                    options: [
+                        'Stay the same',
+                        'Decrease',
+                        'Increase',
+                        'Be refunded'
+                    ],
+                    correct: 2,
+                    explanation: 'Variable-rate mortgages change when the Bank rate changes. Higher Bank rate = higher mortgage payments.'
+                },
+                {
+                    question: 'Marion receives a 1.75% pay rise but inflation is 2%. In real terms, her purchasing power has:',
+                    options: [
+                        'Increased by 1.75%',
+                        'Increased by 3.75%',
+                        'Decreased by 0.25%',
+                        'Stayed the same'
+                    ],
+                    correct: 2,
+                    explanation: 'Real change = Pay rise - Inflation = 1.75% - 2% = -0.25%. Her pay rises slower than prices, so she\'s worse off.'
+                },
+                {
+                    question: 'Who benefits MOST from rising interest rates?',
+                    options: [
+                        'People with variable-rate mortgages',
+                        'People with credit card debt',
+                        'People with savings',
+                        'People wanting to borrow'
+                    ],
+                    correct: 2,
+                    explanation: 'Savers benefit from higher rates because they earn more interest on their savings. Borrowers pay more.'
+                },
+                {
+                    question: 'AER stands for:',
+                    options: [
+                        'Annual Earnings Rate',
+                        'Annual Equivalent Rate',
+                        'Average Earnings Return',
+                        'Actual Earnings Report'
+                    ],
+                    correct: 1,
+                    explanation: 'AER (Annual Equivalent Rate) is the standard measure for comparing savings accounts.'
+                },
+                {
+                    question: 'APR stands for:',
+                    options: [
+                        'Annual Payment Rate',
+                        'Average Price Rate',
+                        'Annual Percentage Rate',
+                        'Actual Payment Required'
+                    ],
+                    correct: 2,
+                    explanation: 'APR (Annual Percentage Rate) is the standard measure for comparing the cost of loans and borrowing.'
+                },
+                {
+                    question: 'Why might compound interest be BAD for someone with credit card debt?',
+                    options: [
+                        'It reduces their debt',
+                        'Interest is charged on interest, making the debt grow quickly',
+                        'It makes payments easier',
+                        'It only applies to savings'
+                    ],
+                    correct: 1,
+                    explanation: 'With compound interest on debt, you pay interest on the interest. Unpaid credit card balances can grow rapidly.'
+                }
+            ],
+            caseStudies: [
+                {
+                    title: 'Richard\'s Savings Problem',
+                    scenario: `
+                        <p><strong>Richard</strong> wants to buy a second-hand estate car for his pottery business. Here's what happened over a year:</p>
+                        <table style="width: 100%; margin: 10px 0; border-collapse: collapse;">
+                            <tr style="background: #f8f9fa;"><td style="padding: 8px; border: 1px solid #ddd;"><strong>Car price (start of year)</strong></td><td style="padding: 8px; border: 1px solid #ddd; text-align: right;">£6,875</td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Inflation on car (7.45%)</td><td style="padding: 8px; border: 1px solid #ddd; text-align: right;">+£512</td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Car price (end of year)</strong></td><td style="padding: 8px; border: 1px solid #ddd; text-align: right;">£7,387</td></tr>
+                            <tr style="background: #f8f9fa;"><td style="padding: 8px; border: 1px solid #ddd;"><strong>Richard's savings (start)</strong></td><td style="padding: 8px; border: 1px solid #ddd; text-align: right;">£5,000</td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Interest earned (3%)</td><td style="padding: 8px; border: 1px solid #ddd; text-align: right;">+£150</td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Richard's savings (end)</strong></td><td style="padding: 8px; border: 1px solid #ddd; text-align: right;">£5,150</td></tr>
+                        </table>
+                    `,
+                    questions: [
+                        {
+                            question: 'Richard\'s savings grew by £150 but the car price rose by £512. This means:',
+                            options: [
+                                'Richard is getting closer to affording the car',
+                                'Richard is further away from affording the car',
+                                'It makes no difference',
+                                'Richard should buy the car immediately'
+                            ],
+                            correct: 1,
+                            explanation: 'The car price increased by £512 but his savings only grew by £150. The gap widened by £362 - he\'s falling behind.'
+                        },
+                        {
+                            question: 'Richard\'s real interest rate on his savings is:',
+                            options: [
+                                '+10.45%',
+                                '+3%',
+                                '-4.45%',
+                                '0%'
+                            ],
+                            correct: 2,
+                            explanation: 'Real rate = Nominal (3%) - Inflation (7.45%) = -4.45%. Richard\'s money is losing purchasing power.'
+                        },
+                        {
+                            question: 'What could Richard do to improve his situation?',
+                            options: [
+                                'Stop saving altogether',
+                                'Find a higher interest savings account or save more each month',
+                                'Wait for prices to fall',
+                                'Ignore inflation'
+                            ],
+                            correct: 1,
+                            explanation: 'To beat inflation, Richard needs higher returns or to save more. Waiting won\'t help if prices keep rising.'
+                        }
+                    ]
+                },
+                {
+                    title: 'Philippe and Lisa\'s Winter Fuel',
+                    scenario: `
+                        <p><strong>Philippe and Lisa</strong> receive a Winter Fuel Payment of £200 per year from the government.</p>
+                        <table style="width: 100%; margin: 10px 0; border-collapse: collapse;">
+                            <tr style="background: #f8f9fa;"><td style="padding: 8px; border: 1px solid #ddd;"><strong>Last Year</strong></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Winter energy bill</td><td style="padding: 8px; border: 1px solid #ddd; text-align: right;">£400</td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Winter Fuel Payment</td><td style="padding: 8px; border: 1px solid #ddd; text-align: right;">-£200</td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">They paid</td><td style="padding: 8px; border: 1px solid #ddd; text-align: right;">£200</td></tr>
+                            <tr style="background: #f8f9fa;"><td style="padding: 8px; border: 1px solid #ddd;"><strong>This Year (10% inflation)</strong></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Winter energy bill</td><td style="padding: 8px; border: 1px solid #ddd; text-align: right;">£440</td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Winter Fuel Payment (unchanged)</td><td style="padding: 8px; border: 1px solid #ddd; text-align: right;">-£200</td></tr>
+                            <tr style="background: #f8d7da;"><td style="padding: 8px; border: 1px solid #ddd;"><strong>They must pay</strong></td><td style="padding: 8px; border: 1px solid #ddd; text-align: right;"><strong>£240</strong></td></tr>
+                        </table>
+                    `,
+                    questions: [
+                        {
+                            question: 'Philippe and Lisa are £40 worse off this year because:',
+                            options: [
+                                'The government cut their payment',
+                                'Their benefit didn\'t increase with inflation',
+                                'They used more energy',
+                                'Energy prices fell'
+                            ],
+                            correct: 1,
+                            explanation: 'Energy prices rose 10% (inflation) but their benefit stayed at £200. When benefits don\'t keep pace with inflation, people are worse off.'
+                        },
+                        {
+                            question: 'This situation shows that inflation particularly affects:',
+                            options: [
+                                'Only young people',
+                                'Only business owners',
+                                'People on fixed incomes like pensioners',
+                                'Only people with mortgages'
+                            ],
+                            correct: 2,
+                            explanation: 'People on fixed incomes (like pensioners) are vulnerable because their income doesn\'t automatically rise with prices.'
+                        },
+                        {
+                            question: 'If the Winter Fuel Payment had increased by 10% (like energy prices), Philippe and Lisa would pay:',
+                            options: [
+                                '£200',
+                                '£220',
+                                '£240',
+                                '£260'
+                            ],
+                            correct: 0,
+                            explanation: 'If the payment increased by 10% to £220, and the bill is £440, they would pay £440 - £220 = £220. But that wasn\'t an option - if it matched inflation perfectly at £200 × 1.10 = £220, they\'d pay £440 - £220 = £220. Actually they\'d still pay £200 if the payment rose to match the same proportion of the bill.'
+                        }
+                    ]
+                }
+            ]
+        });
+    </script>
+</body>
+</html>

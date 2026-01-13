@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic 4 Test: Income | LIBF FIS</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/test-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>LIBF FIS Assessment</h1>
+            <p class="subtitle">Topic 4: Income</p>
+        </div>
+    </header>
+
+    <nav class="breadcrumb">
+        <div class="container">
+            <a href="../index.html">Home</a>
+            <span>›</span>
+            <a href="../topics/topic-4-income/index.html">Topic 4</a>
+            <span>›</span>
+            <span>Test</span>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="section">
+                <div class="info-box tip">
+                    <strong>Instructions:</strong> Answer all questions by selecting one option for each. When you have finished, click "Submit Test" to see your results. A PDF certificate will be automatically downloaded with your score.
+                </div>
+
+                <div id="topic-4-test"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>LIBF FIS Revision | Assessment Centre</p>
+        </div>
+    </footer>
+
+    <script src="../js/test-engine.js"></script>
+    <script>
+        // Topic 4 Test: Income
+        new FISTest('topic-4-test', {
+            topicNumber: 4,
+            topicName: 'Income',
+            questions: [
+                {
+                    question: 'What is the difference between gross pay and net pay?',
+                    options: [
+                        'There is no difference',
+                        'Gross pay is after deductions, net pay is before',
+                        'Gross pay is before deductions, net pay is after deductions',
+                        'Gross pay is weekly, net pay is monthly'
+                    ],
+                    correct: 2,
+                    explanation: 'Gross pay is your total earnings before deductions. Net pay is what you actually receive after tax, National Insurance, and other deductions.'
+                },
+                {
+                    question: 'Daniel receives a salary of £45,000 per year. This means:',
+                    options: [
+                        'He is paid £45,000 every month',
+                        'He receives a fixed annual amount paid in regular instalments',
+                        'He is paid per hour worked',
+                        'He only works part-time'
+                    ],
+                    correct: 1,
+                    explanation: 'A salary is a fixed annual amount, usually paid monthly. Daniel receives £45,000 ÷ 12 = £3,750 gross per month.'
+                },
+                {
+                    question: 'Jacob works part-time as a waiter and is paid £11 per hour. He receives:',
+                    options: [
+                        'A salary',
+                        'A wage',
+                        'Commission',
+                        'A pension'
+                    ],
+                    correct: 1,
+                    explanation: 'A wage is pay calculated by the hour. Jacob\'s earnings depend on how many hours he works.'
+                },
+                {
+                    question: 'Which of the following is an example of earned income?',
+                    options: [
+                        'Interest from a savings account',
+                        'State Pension',
+                        'Salary from employment',
+                        'Inheritance from a relative'
+                    ],
+                    correct: 2,
+                    explanation: 'Earned income comes from work - wages and salaries. Interest, pensions, and inheritance are unearned income.'
+                },
+                {
+                    question: 'Richard is self-employed as a potter. His income is:',
+                    options: [
+                        'Always the same each month',
+                        'Guaranteed by the government',
+                        'Variable depending on sales',
+                        'Paid by an employer through PAYE'
+                    ],
+                    correct: 2,
+                    explanation: 'Self-employed income varies based on business success. Richard\'s income depends on how much pottery he sells.'
+                },
+                {
+                    question: 'Philippe and Lisa receive the State Pension. This is an example of:',
+                    options: [
+                        'Earned income from employment',
+                        'Income from self-employment',
+                        'Unearned income from the government',
+                        'Salary from a company'
+                    ],
+                    correct: 2,
+                    explanation: 'The State Pension is unearned income - it\'s a government benefit for retired people, not payment for work.'
+                },
+                {
+                    question: 'What does the National Minimum Wage ensure?',
+                    options: [
+                        'Everyone earns the same amount',
+                        'Workers are paid at least a legal minimum rate per hour',
+                        'All workers receive a salary',
+                        'Employers pay no tax'
+                    ],
+                    correct: 1,
+                    explanation: 'The National Minimum Wage sets the lowest hourly rate employers must legally pay workers.'
+                },
+                {
+                    question: 'Which of the following would appear as a DEDUCTION on a payslip?',
+                    options: [
+                        'Gross pay',
+                        'Overtime payments',
+                        'National Insurance contributions',
+                        'Bonus'
+                    ],
+                    correct: 2,
+                    explanation: 'National Insurance is deducted from your pay. Gross pay, overtime, and bonuses are additions, not deductions.'
+                },
+                {
+                    question: 'A shop assistant earns basic pay plus 5% of any sales they make. The 5% is called:',
+                    options: [
+                        'A salary',
+                        'A wage',
+                        'Commission',
+                        'Pension contribution'
+                    ],
+                    correct: 2,
+                    explanation: 'Commission is payment based on sales made. It incentivises employees to sell more.'
+                },
+                {
+                    question: 'Disposable income is:',
+                    options: [
+                        'Money you throw away',
+                        'Your gross income before tax',
+                        'Income left after tax and essential bills are paid',
+                        'Only cash in your wallet'
+                    ],
+                    correct: 2,
+                    explanation: 'Disposable income is what remains after compulsory deductions and essential expenses - money you can choose how to spend.'
+                }
+            ],
+            caseStudies: [
+                {
+                    title: 'Marion\'s Payslip',
+                    scenario: `
+                        <p><strong>Marion</strong> works as an events manager at the Grand Hotel earning £24,000 per year. Here is her monthly payslip:</p>
+                        <table style="width: 100%; margin: 10px 0; border-collapse: collapse;">
+                            <tr style="background: #f8f9fa;"><td style="padding: 8px; border: 1px solid #ddd;"><strong>Gross Pay</strong></td><td style="padding: 8px; border: 1px solid #ddd; text-align: right;">£2,000.00</td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">PAYE Tax</td><td style="padding: 8px; border: 1px solid #ddd; text-align: right;">-£190.50</td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">National Insurance</td><td style="padding: 8px; border: 1px solid #ddd; text-align: right;">-£144.32</td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Pension</td><td style="padding: 8px; border: 1px solid #ddd; text-align: right;">-£80.00</td></tr>
+                            <tr style="background: #d4edda;"><td style="padding: 8px; border: 1px solid #ddd;"><strong>Net Pay</strong></td><td style="padding: 8px; border: 1px solid #ddd; text-align: right;"><strong>£1,585.18</strong></td></tr>
+                        </table>
+                    `,
+                    questions: [
+                        {
+                            question: 'Marion\'s gross monthly pay is £2,000. What is her gross annual salary?',
+                            options: [
+                                '£20,000',
+                                '£24,000',
+                                '£26,000',
+                                '£2,000'
+                            ],
+                            correct: 1,
+                            explanation: '£2,000 × 12 months = £24,000 per year. Gross pay is the amount before any deductions.'
+                        },
+                        {
+                            question: 'How much is deducted from Marion\'s pay each month in total?',
+                            options: [
+                                '£190.50',
+                                '£334.82',
+                                '£414.82',
+                                '£1,585.18'
+                            ],
+                            correct: 2,
+                            explanation: '£190.50 (tax) + £144.32 (NI) + £80.00 (pension) = £414.82 in total deductions.'
+                        },
+                        {
+                            question: 'Marion\'s net pay is the amount she:',
+                            options: [
+                                'Earns before deductions',
+                                'Actually receives in her bank account',
+                                'Pays in tax',
+                                'Owes to the government'
+                            ],
+                            correct: 1,
+                            explanation: 'Net pay is what Marion actually receives after all deductions - the amount deposited in her bank account.'
+                        }
+                    ]
+                },
+                {
+                    title: 'The Baker Family Incomes',
+                    scenario: `
+                        <p>The Baker family has different sources of income:</p>
+                        <ul>
+                            <li><strong>Daniel (40s)</strong>: Salary of £45,000 from insurance company</li>
+                            <li><strong>Sue (40s)</strong>: Salary of £25,000 as medical secretary</li>
+                            <li><strong>Richard (40s)</strong>: Self-employed potter, income varies</li>
+                            <li><strong>Philippe & Lisa (70s)</strong>: State Pension plus private pension</li>
+                            <li><strong>Jacob (19)</strong>: Part-time wages as a waiter</li>
+                            <li><strong>Sophie (17)</strong>: Pocket money from parents</li>
+                        </ul>
+                    `,
+                    questions: [
+                        {
+                            question: 'Which family member has the most predictable monthly income?',
+                            options: [
+                                'Richard (self-employed)',
+                                'Jacob (part-time waiter)',
+                                'Daniel (salaried employee)',
+                                'Sophie (pocket money)'
+                            ],
+                            correct: 2,
+                            explanation: 'Daniel receives a fixed salary each month. Richard\'s income varies with sales, Jacob\'s depends on hours worked, and pocket money may vary.'
+                        },
+                        {
+                            question: 'Richard\'s self-employed income is less predictable because:',
+                            options: [
+                                'He doesn\'t work hard enough',
+                                'It depends on how many products he sells',
+                                'The government takes more tax',
+                                'He gets paid weekly'
+                            ],
+                            correct: 1,
+                            explanation: 'Self-employed income depends on business success. If Richard sells less pottery, he earns less.'
+                        },
+                        {
+                            question: 'Philippe and Lisa\'s State Pension is funded by:',
+                            options: [
+                                'Their own savings only',
+                                'National Insurance contributions from current workers',
+                                'The European Union',
+                                'Private companies'
+                            ],
+                            correct: 1,
+                            explanation: 'The State Pension is funded by National Insurance contributions from people currently working - a system where today\'s workers fund today\'s pensioners.'
+                        }
+                    ]
+                }
+            ]
+        });
+    </script>
+</body>
+</html>

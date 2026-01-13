@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic 5 Test: Understanding Tax | LIBF FIS</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/test-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>LIBF FIS Assessment</h1>
+            <p class="subtitle">Topic 5: Understanding Tax</p>
+        </div>
+    </header>
+
+    <nav class="breadcrumb">
+        <div class="container">
+            <a href="../index.html">Home</a>
+            <span>›</span>
+            <a href="../topics/topic-5-tax/index.html">Topic 5</a>
+            <span>›</span>
+            <span>Test</span>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="section">
+                <div class="info-box tip">
+                    <strong>Instructions:</strong> Answer all questions by selecting one option for each. When you have finished, click "Submit Test" to see your results. A PDF certificate will be automatically downloaded with your score.
+                </div>
+
+                <div id="topic-5-test"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>LIBF FIS Revision | Assessment Centre</p>
+        </div>
+    </footer>
+
+    <script src="../js/test-engine.js"></script>
+    <script>
+        // Topic 5 Test: Understanding Tax
+        new FISTest('topic-5-test', {
+            topicNumber: 5,
+            topicName: 'Understanding Tax',
+            questions: [
+                {
+                    question: 'PAYE stands for:',
+                    options: [
+                        'Pay As You Go',
+                        'Pay As You Earn',
+                        'Pay After Your Employment',
+                        'Personal Annual Yearly Earnings'
+                    ],
+                    correct: 1,
+                    explanation: 'PAYE = Pay As You Earn. It\'s the system where employers deduct tax from your wages before you receive them.'
+                },
+                {
+                    question: 'The Personal Allowance for 2023/24 is £12,570. This means:',
+                    options: [
+                        'Everyone pays 12,570% tax',
+                        'The first £12,570 you earn is tax-free',
+                        'You pay £12,570 in tax',
+                        'Only the first £12,570 is taxed'
+                    ],
+                    correct: 1,
+                    explanation: 'The Personal Allowance is the amount you can earn before paying income tax. The first £12,570 is tax-free.'
+                },
+                {
+                    question: 'Sue earns £25,000 per year. Which income tax rate band does her taxable income fall into?',
+                    options: [
+                        'Personal Allowance (0%)',
+                        'Basic Rate (20%)',
+                        'Higher Rate (40%)',
+                        'Additional Rate (45%)'
+                    ],
+                    correct: 1,
+                    explanation: '£25,000 minus £12,570 Personal Allowance = £12,430 taxable income. This falls in the Basic Rate band (20%).'
+                },
+                {
+                    question: 'Which of the following is a DIRECT tax?',
+                    options: [
+                        'VAT',
+                        'Excise Duty',
+                        'Income Tax',
+                        'Stamp Duty on purchases'
+                    ],
+                    correct: 2,
+                    explanation: 'Direct taxes are paid directly to HMRC (Income Tax, National Insurance, Capital Gains Tax). VAT and duties are indirect taxes added to prices.'
+                },
+                {
+                    question: 'VAT is an example of:',
+                    options: [
+                        'A direct tax',
+                        'An indirect tax',
+                        'Income tax',
+                        'A tax-free allowance'
+                    ],
+                    correct: 1,
+                    explanation: 'VAT is an indirect tax - it\'s added to the price of goods and services, not paid directly to HMRC.'
+                },
+                {
+                    question: 'The standard rate of VAT in the UK is:',
+                    options: [
+                        '5%',
+                        '10%',
+                        '15%',
+                        '20%'
+                    ],
+                    correct: 3,
+                    explanation: 'The standard VAT rate is 20%. There\'s also a reduced rate of 5% and zero-rated items at 0%.'
+                },
+                {
+                    question: 'Which of the following items is ZERO-RATED for VAT?',
+                    options: [
+                        'Restaurant meals',
+                        'Furniture',
+                        'Postage stamps',
+                        'Electronics'
+                    ],
+                    correct: 2,
+                    explanation: 'Postage stamps, food, children\'s clothes, and books are zero-rated for VAT (0% tax).'
+                },
+                {
+                    question: 'Daniel sells shares and makes a £7,000 profit. He should pay:',
+                    options: [
+                        'Income Tax',
+                        'Capital Gains Tax',
+                        'VAT',
+                        'Council Tax'
+                    ],
+                    correct: 1,
+                    explanation: 'Profits from selling assets like shares are subject to Capital Gains Tax, NOT Income Tax.'
+                },
+                {
+                    question: 'National Insurance contributions help fund:',
+                    options: [
+                        'Only the State Pension',
+                        'Only the NHS',
+                        'The State Pension and NHS',
+                        'Private insurance companies'
+                    ],
+                    correct: 2,
+                    explanation: 'National Insurance contributions fund the State Pension, NHS, and other state benefits.'
+                },
+                {
+                    question: 'If the government DECREASES income tax, what happens to disposable income?',
+                    options: [
+                        'It decreases',
+                        'It increases',
+                        'It stays the same',
+                        'It becomes negative'
+                    ],
+                    correct: 1,
+                    explanation: 'Lower tax = more take-home pay = more disposable income. You keep more of your earnings.'
+                }
+            ],
+            caseStudies: [
+                {
+                    title: 'The Baker Family Tax Situation',
+                    scenario: `
+                        <p>Different members of the Baker family have different tax situations:</p>
+                        <ul>
+                            <li><strong>Daniel</strong> earns £60,000/year from his insurance job</li>
+                            <li><strong>Sue</strong> earns £25,000/year as a medical secretary</li>
+                            <li><strong>Richard</strong> is self-employed and completes a tax return</li>
+                            <li><strong>Marion</strong> earns £24,000/year at the hotel (PAYE)</li>
+                        </ul>
+                        <p>The income tax bands are: 0% up to £12,570, then 20% (Basic), 40% (Higher from £50,271), 45% (Additional over £125,140).</p>
+                    `,
+                    questions: [
+                        {
+                            question: 'Which Baker family member pays some tax at the Higher Rate (40%)?',
+                            options: [
+                                'Sue (£25,000)',
+                                'Marion (£24,000)',
+                                'Daniel (£60,000)',
+                                'None of them'
+                            ],
+                            correct: 2,
+                            explanation: 'Daniel earns £60,000, which exceeds the £50,270 threshold. He pays 20% on income up to £50,270 and 40% on the rest.'
+                        },
+                        {
+                            question: 'How does Richard pay his income tax differently from Marion?',
+                            options: [
+                                'Richard doesn\'t pay any tax',
+                                'Richard pays through PAYE like Marion',
+                                'Richard completes a self-assessment tax return',
+                                'Richard pays more VAT instead'
+                            ],
+                            correct: 2,
+                            explanation: 'Self-employed people like Richard complete an annual self-assessment tax return. Employed people like Marion have tax deducted automatically through PAYE.'
+                        },
+                        {
+                            question: 'Sue\'s taxable income is:',
+                            options: [
+                                '£25,000',
+                                '£12,570',
+                                '£12,430',
+                                '£0'
+                            ],
+                            correct: 2,
+                            explanation: '£25,000 gross income minus £12,570 Personal Allowance = £12,430 taxable income.'
+                        }
+                    ]
+                },
+                {
+                    title: 'Shopping and VAT',
+                    scenario: `
+                        <p><strong>Sue</strong> goes shopping and buys the following items:</p>
+                        <ul>
+                            <li>New sofa for the living room</li>
+                            <li>Children's school uniforms</li>
+                            <li>Weekly food shopping</li>
+                            <li>A book of first-class postage stamps</li>
+                            <li>A meal at a restaurant</li>
+                        </ul>
+                        <p>VAT rates: Standard 20%, Reduced 5%, Zero 0%</p>
+                    `,
+                    questions: [
+                        {
+                            question: 'Which items would Sue pay 20% VAT on?',
+                            options: [
+                                'Food and children\'s clothes',
+                                'Sofa and restaurant meal',
+                                'Postage stamps only',
+                                'All items'
+                            ],
+                            correct: 1,
+                            explanation: 'Furniture (sofa) and restaurant meals are standard-rated at 20% VAT. Food, children\'s clothes, and stamps are zero-rated.'
+                        },
+                        {
+                            question: 'The postage stamps are charged at which VAT rate?',
+                            options: [
+                                '20% (Standard)',
+                                '5% (Reduced)',
+                                '0% (Zero-rated)',
+                                'VAT exempt'
+                            ],
+                            correct: 2,
+                            explanation: 'Postage stamps are zero-rated for VAT - a common exam question!'
+                        },
+                        {
+                            question: 'If the sofa costs £800 before VAT, how much VAT does Sue pay?',
+                            options: [
+                                '£40',
+                                '£80',
+                                '£160',
+                                '£200'
+                            ],
+                            correct: 2,
+                            explanation: '20% of £800 = £160 VAT. The total price would be £960 including VAT.'
+                        }
+                    ]
+                }
+            ]
+        });
+    </script>
+</body>
+</html>

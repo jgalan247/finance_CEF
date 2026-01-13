@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic 9 Test: Economic Cycles | LIBF FIS</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/test-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>LIBF FIS Assessment</h1>
+            <p class="subtitle">Topic 9: Economic Cycles & Demographic Changes</p>
+        </div>
+    </header>
+
+    <nav class="breadcrumb">
+        <div class="container">
+            <a href="../index.html">Home</a>
+            <span>›</span>
+            <a href="../topics/topic-9-economic-cycles/index.html">Topic 9</a>
+            <span>›</span>
+            <span>Test</span>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="section">
+                <div class="info-box tip">
+                    <strong>Instructions:</strong> Answer all questions by selecting one option for each. When you have finished, click "Submit Test" to see your results. A PDF certificate will be automatically downloaded with your score.
+                </div>
+
+                <div id="topic-9-test"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>LIBF FIS Revision | Assessment Centre</p>
+        </div>
+    </footer>
+
+    <script src="../js/test-engine.js"></script>
+    <script>
+        // Topic 9 Test: Economic Cycles & Demographic Changes
+        new FISTest('topic-9-test', {
+            topicNumber: 9,
+            topicName: 'Economic Cycles & Demographics',
+            questions: [
+                {
+                    question: 'The four stages of the economic cycle in order are:',
+                    options: [
+                        'Recession, Growth, Peak, Trough',
+                        'Growth, Peak, Recession, Trough',
+                        'Peak, Growth, Trough, Recession',
+                        'Trough, Recession, Growth, Peak'
+                    ],
+                    correct: 1,
+                    explanation: 'The economy grows, reaches a peak, falls into recession, hits the trough (bottom), then begins growing again.'
+                },
+                {
+                    question: 'During a recession, which of the following typically INCREASES?',
+                    options: [
+                        'Consumer spending',
+                        'Business profits',
+                        'Unemployment',
+                        'House prices'
+                    ],
+                    correct: 2,
+                    explanation: 'During recessions, businesses cut costs by making workers redundant, so unemployment rises.'
+                },
+                {
+                    question: 'Immigration means:',
+                    options: [
+                        'Moving out of a country',
+                        'Moving into a country',
+                        'Moving within a country',
+                        'Moving to a city'
+                    ],
+                    correct: 1,
+                    explanation: 'Immigration means moving INTO a country. Remember: IM = IN. Emigration means exiting.'
+                },
+                {
+                    question: 'Philippe moved from Africa to the UK. This is an example of:',
+                    options: [
+                        'Emigration from the UK',
+                        'Immigration to the UK',
+                        'Internal migration',
+                        'Urbanisation'
+                    ],
+                    correct: 1,
+                    explanation: 'Philippe moved INTO the UK, so he immigrated to the UK (and emigrated from Africa).'
+                },
+                {
+                    question: 'Philippe later moved from Liverpool to Southampton for work. This is an example of:',
+                    options: [
+                        'Immigration',
+                        'Emigration',
+                        'Internal migration',
+                        'Urbanisation'
+                    ],
+                    correct: 2,
+                    explanation: 'Internal migration is movement within the same country. Both cities are in the UK.'
+                },
+                {
+                    question: 'An ageing population creates a financial challenge because:',
+                    options: [
+                        'Old people spend too much money',
+                        'Fewer workers pay taxes to support more pensioners',
+                        'Young people refuse to work',
+                        'The government prints more money'
+                    ],
+                    correct: 1,
+                    explanation: 'With more retired people needing pensions/healthcare and fewer working people paying taxes, government finances are stretched.'
+                },
+                {
+                    question: 'During a recession, Jacob\'s main financial concern should be:',
+                    options: [
+                        'Inflation reducing his savings',
+                        'Interest rates rising',
+                        'Losing his job or having hours cut',
+                        'His student loan interest'
+                    ],
+                    correct: 2,
+                    explanation: 'The biggest risk in a recession is unemployment. Jacob\'s restaurant might cut his hours or close.'
+                },
+                {
+                    question: 'Financial experts recommend an emergency fund equal to:',
+                    options: [
+                        '1 week\'s expenses',
+                        '1 month\'s expenses',
+                        '3-6 months\' expenses',
+                        '1 year\'s expenses'
+                    ],
+                    correct: 2,
+                    explanation: 'An emergency fund of 3-6 months\' expenses provides a buffer during unexpected events like job loss.'
+                },
+                {
+                    question: 'Which family member would be MOST financially vulnerable during a recession?',
+                    options: [
+                        'Philippe (retired, owns home outright)',
+                        'Daniel (permanent employed, fixed-rate mortgage)',
+                        'Richard (self-employed, variable income)',
+                        'Lisa (retired, State Pension)'
+                    ],
+                    correct: 2,
+                    explanation: 'Richard is self-employed with no guaranteed income. In a recession, people cut spending on non-essentials like pottery.'
+                },
+                {
+                    question: 'Urbanisation refers to:',
+                    options: [
+                        'People moving from cities to villages',
+                        'People moving from countryside to cities',
+                        'People moving to another country',
+                        'People buying urban clothes'
+                    ],
+                    correct: 1,
+                    explanation: 'Urbanisation is the movement of people from rural areas to cities, usually for work opportunities.'
+                }
+            ],
+            caseStudies: [
+                {
+                    title: 'Marion\'s Redundancy',
+                    scenario: `
+                        <p><strong>Marion</strong> was made redundant from her job at an events company during a recession. She received:</p>
+                        <ul>
+                            <li>Redundancy payment: £1,200</li>
+                            <li>Savings: £400</li>
+                            <li>Jobseeker's Allowance: £334/month</li>
+                            <li>Her rent was £650/month</li>
+                        </ul>
+                        <p>Marion was unemployed for four months before finding a new job at the Grand Hotel.</p>
+                    `,
+                    questions: [
+                        {
+                            question: 'Why couldn\'t Marion afford her flat on Jobseeker\'s Allowance alone?',
+                            options: [
+                                'She was spending on luxuries',
+                                'JSA (£334/month) was much less than her rent (£650/month) alone',
+                                'She forgot to claim',
+                                'Her landlord increased the rent'
+                            ],
+                            correct: 1,
+                            explanation: 'JSA paid £334/month but her rent alone was £650/month. Benefits provide a safety net, not a full income replacement.'
+                        },
+                        {
+                            question: 'Marion\'s experience teaches the importance of:',
+                            options: [
+                                'Relying on government benefits',
+                                'Never changing jobs',
+                                'Building emergency savings while employed',
+                                'Living with parents permanently'
+                            ],
+                            correct: 2,
+                            explanation: 'Having emergency savings would have helped Marion stay independent during unemployment.'
+                        },
+                        {
+                            question: 'The events company made Marion redundant because:',
+                            options: [
+                                'She was a bad worker',
+                                'Recession meant fewer bookings and they couldn\'t afford staff',
+                                'They wanted to hire cheaper workers',
+                                'The government told them to'
+                            ],
+                            correct: 1,
+                            explanation: 'During recessions, businesses have less income and often must cut staff costs to survive.'
+                        }
+                    ]
+                },
+                {
+                    title: 'The Ageing Population',
+                    scenario: `
+                        <p>The UK population is getting older:</p>
+                        <ul>
+                            <li>People over 65 in 1950: ~11%</li>
+                            <li>People over 65 today: ~19%</li>
+                            <li>People over 65 by 2050: ~25% (estimated)</li>
+                        </ul>
+                        <p><strong>Philippe and Lisa</strong> are retired and receive the State Pension. Their working children and grandchildren pay National Insurance, which funds the State Pension.</p>
+                    `,
+                    questions: [
+                        {
+                            question: 'The State Pension is funded by:',
+                            options: [
+                                'Philippe and Lisa\'s own savings',
+                                'National Insurance contributions from current workers',
+                                'The European Union',
+                                'Private pension companies'
+                            ],
+                            correct: 1,
+                            explanation: 'The State Pension is funded by NI contributions from current workers - today\'s workers fund today\'s pensioners.'
+                        },
+                        {
+                            question: 'An ageing population means Daniel and Sue will likely:',
+                            options: [
+                                'Retire earlier',
+                                'Pay less tax',
+                                'Have to work longer before getting State Pension',
+                                'Receive higher wages'
+                            ],
+                            correct: 2,
+                            explanation: 'With more pensioners to support, the State Pension age is rising. Daniel and Sue will work longer than their parents did.'
+                        },
+                        {
+                            question: 'One reason the UK population is ageing is:',
+                            options: [
+                                'More young people are being born',
+                                'People are living longer due to better healthcare',
+                                'More immigration of elderly people',
+                                'Young people are leaving the country'
+                            ],
+                            correct: 1,
+                            explanation: 'Improved healthcare means people live longer. Combined with lower birth rates, this creates an ageing population.'
+                        }
+                    ]
+                }
+            ]
+        });
+    </script>
+</body>
+</html>

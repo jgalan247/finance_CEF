@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic 6 Test: Contributing to the Economy | LIBF FIS</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/test-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>LIBF FIS Assessment</h1>
+            <p class="subtitle">Topic 6: Contributing to the Economy</p>
+        </div>
+    </header>
+
+    <nav class="breadcrumb">
+        <div class="container">
+            <a href="../index.html">Home</a>
+            <span>›</span>
+            <a href="../topics/topic-6-economy/index.html">Topic 6</a>
+            <span>›</span>
+            <span>Test</span>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="section">
+                <div class="info-box tip">
+                    <strong>Instructions:</strong> Answer all questions by selecting one option for each. When you have finished, click "Submit Test" to see your results. A PDF certificate will be automatically downloaded with your score.
+                </div>
+
+                <div id="topic-6-test"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>LIBF FIS Revision | Assessment Centre</p>
+        </div>
+    </footer>
+
+    <script src="../js/test-engine.js"></script>
+    <script>
+        // Topic 6 Test: Contributing to the Economy
+        new FISTest('topic-6-test', {
+            topicNumber: 6,
+            topicName: 'Contributing to the Economy',
+            questions: [
+                {
+                    question: 'The three sectors of the economy are:',
+                    options: [
+                        'North, South, and Central',
+                        'Primary, Secondary, and Tertiary',
+                        'Local, National, and International',
+                        'Small, Medium, and Large'
+                    ],
+                    correct: 1,
+                    explanation: 'The economy is divided into Primary (raw materials), Secondary (manufacturing), and Tertiary (services) sectors.'
+                },
+                {
+                    question: 'A farmer growing crops is working in which sector of the economy?',
+                    options: [
+                        'Primary sector',
+                        'Secondary sector',
+                        'Tertiary sector',
+                        'Quaternary sector'
+                    ],
+                    correct: 0,
+                    explanation: 'The Primary sector involves extracting raw materials from nature - farming, fishing, mining, forestry.'
+                },
+                {
+                    question: 'A factory making cars from steel and components is in which sector?',
+                    options: [
+                        'Primary sector',
+                        'Secondary sector',
+                        'Tertiary sector',
+                        'Public sector'
+                    ],
+                    correct: 1,
+                    explanation: 'The Secondary sector involves manufacturing - turning raw materials into finished products.'
+                },
+                {
+                    question: 'Sue works as a medical secretary. She works in which sector?',
+                    options: [
+                        'Primary sector',
+                        'Secondary sector',
+                        'Tertiary sector',
+                        'Manufacturing sector'
+                    ],
+                    correct: 2,
+                    explanation: 'The Tertiary sector provides services. Healthcare administration is a service industry.'
+                },
+                {
+                    question: 'What is the main difference between a charity and a normal business?',
+                    options: [
+                        'Charities cannot employ staff',
+                        'Charities exist to help others, not to make profit for owners',
+                        'Charities pay more tax',
+                        'Charities cannot accept money'
+                    ],
+                    correct: 1,
+                    explanation: 'Charities are non-profit organisations that exist to help a cause or group of people, not to generate profit for shareholders.'
+                },
+                {
+                    question: 'A social enterprise is:',
+                    options: [
+                        'A government department',
+                        'A business that reinvests profits into social or environmental causes',
+                        'A type of charity that cannot make money',
+                        'A business that only sells to the public sector'
+                    ],
+                    correct: 1,
+                    explanation: 'Social enterprises trade like businesses but reinvest their profits back into their social or environmental mission.'
+                },
+                {
+                    question: 'Richard contributes to the economy by:',
+                    options: [
+                        'Receiving benefits only',
+                        'Selling pottery, paying taxes, and creating employment',
+                        'Only buying things from shops',
+                        'Staying at home'
+                    ],
+                    correct: 1,
+                    explanation: 'Self-employed people like Richard contribute by creating goods/services, paying taxes, and potentially employing others.'
+                },
+                {
+                    question: 'When consumers spend money in shops, this helps the economy because:',
+                    options: [
+                        'Shops have to close',
+                        'It creates demand, supports jobs, and generates tax revenue',
+                        'The government takes all the money',
+                        'It causes inflation only'
+                    ],
+                    correct: 1,
+                    explanation: 'Consumer spending drives economic activity - it supports businesses, jobs, and generates tax revenue for public services.'
+                },
+                {
+                    question: 'The public sector includes:',
+                    options: [
+                        'Private companies like supermarkets',
+                        'Self-employed individuals',
+                        'Government services like NHS and state schools',
+                        'International businesses only'
+                    ],
+                    correct: 2,
+                    explanation: 'The public sector consists of organisations run by the government - NHS, state schools, police, fire services, etc.'
+                },
+                {
+                    question: 'The private sector includes:',
+                    options: [
+                        'Only small businesses',
+                        'Businesses owned by individuals or shareholders, aiming to make profit',
+                        'Government departments only',
+                        'Charities and voluntary organisations'
+                    ],
+                    correct: 1,
+                    explanation: 'The private sector consists of businesses owned by private individuals or shareholders, operating to generate profit.'
+                }
+            ],
+            caseStudies: [
+                {
+                    title: 'Richard\'s Pottery Business',
+                    scenario: `
+                        <p><strong>Richard</strong> is a self-employed potter. He contributes to the economy in several ways:</p>
+                        <ul>
+                            <li>Creates handmade pottery products to sell</li>
+                            <li>Buys clay and materials from suppliers</li>
+                            <li>Pays income tax and National Insurance</li>
+                            <li>Rents a workshop from a local landlord</li>
+                            <li>Sells at craft markets and online</li>
+                        </ul>
+                        <p>Richard imports special clay from France for his premium products.</p>
+                    `,
+                    questions: [
+                        {
+                            question: 'Richard\'s pottery business is in which economic sector?',
+                            options: [
+                                'Primary (extracting raw materials)',
+                                'Secondary (manufacturing)',
+                                'Tertiary (services)',
+                                'Public sector'
+                            ],
+                            correct: 1,
+                            explanation: 'Richard manufactures products (pottery) from raw materials (clay). This is Secondary sector activity.'
+                        },
+                        {
+                            question: 'When Richard buys clay from suppliers, he is:',
+                            options: [
+                                'Wasting money',
+                                'Supporting other businesses in the economy',
+                                'Only helping himself',
+                                'Working in the primary sector'
+                            ],
+                            correct: 1,
+                            explanation: 'When Richard buys supplies, he supports his suppliers\' businesses, who then pay their staff and taxes - money circulates through the economy.'
+                        },
+                        {
+                            question: 'Richard paying income tax contributes to:',
+                            options: [
+                                'His own savings',
+                                'Private companies',
+                                'Public services like NHS and schools',
+                                'Foreign governments'
+                            ],
+                            correct: 2,
+                            explanation: 'Tax revenue funds public services that benefit everyone - healthcare, education, roads, emergency services, etc.'
+                        }
+                    ]
+                },
+                {
+                    title: 'Sue\'s Volunteering',
+                    scenario: `
+                        <p><strong>Sue</strong> works as a medical secretary (paid employment) but also volunteers at a local food bank charity on weekends.</p>
+                        <p>The food bank:</p>
+                        <ul>
+                            <li>Provides free food parcels to families in need</li>
+                            <li>Relies on donations from supermarkets and the public</li>
+                            <li>Is run by volunteers with one paid manager</li>
+                            <li>Is registered as a charity with the Charity Commission</li>
+                        </ul>
+                    `,
+                    questions: [
+                        {
+                            question: 'The food bank is classified as:',
+                            options: [
+                                'A private sector business',
+                                'A public sector organisation',
+                                'A third sector/voluntary organisation (charity)',
+                                'A social enterprise'
+                            ],
+                            correct: 2,
+                            explanation: 'Charities belong to the third sector (also called voluntary or charity sector), separate from public and private sectors.'
+                        },
+                        {
+                            question: 'Sue\'s volunteering benefits the economy by:',
+                            options: [
+                                'Earning her extra money',
+                                'Providing services that reduce demand on public services',
+                                'Increasing unemployment',
+                                'Taking jobs from paid workers'
+                            ],
+                            correct: 1,
+                            explanation: 'Charities provide valuable services that complement public services, often reaching people who might otherwise need more government support.'
+                        },
+                        {
+                            question: 'The food bank differs from a business because:',
+                            options: [
+                                'It cannot accept any money',
+                                'It aims to help people, not to make profit for owners',
+                                'It doesn\'t follow any rules',
+                                'It only employs volunteers'
+                            ],
+                            correct: 1,
+                            explanation: 'Charities exist to fulfil their charitable purpose, not to make profit. Any surplus money is reinvested in the charity\'s mission.'
+                        }
+                    ]
+                }
+            ]
+        });
+    </script>
+</body>
+</html>
